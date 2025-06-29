@@ -1,0 +1,486 @@
+{
+    "site": {
+        "title": "LysLan - Chocolatier Artisanal Haut de Gamme",
+        "description": "Découvrez LysLan – une marque vietnamienne de chocolat haut de gamme, avec des bonbons, tablettes, nama et fruits secs enrobés de chocolat artisanal raffiné.",
+        "keywords": "chocolat haut de gamme, chocolat artisanal, chocolat nama, bonbons chocolat, cadeaux chocolat, LysLan"
+    },
+    "metadata": {
+        "home": {
+            "title": "LysLan - L’univers du Chocolat Artisanal Haut de Gamme",
+            "description": "Explorez un monde de chocolat artisanal raffiné : bonbons artistiques, nama fondant, fruits enrobés et bien plus encore.",
+            "keywords": "chocolat artisanal, bonbons chocolat, chocolat nama, chocolat vietnamien, chocolat haut de gamme, cadeaux chocolat, LysLan",
+            "ogTitle": "LysLan - L’univers du Chocolat Artisanal Haut de Gamme",
+            "ogDescription": "Savourez un chocolat intense, façonné par des artisans vietnamiens avec des ingrédients soigneusement sélectionnés.",
+            "ogImage": "/images/og-home-vi.jpg"
+        },
+        "about": {
+            "title": "À propos - LysLan Chocolatier",
+            "description": "LysLan est une marque de chocolat artisanal haut de gamme, née d’une passion et d’une vision de faire rayonner le chocolat vietnamien dans le monde.",
+            "keywords": "marque de chocolat vietnamien, artisan chocolatier, chocolat artisanal, chocolat haut de gamme, chocolat nama, bonbons chocolat, cadeaux chocolat, LysLan",
+            "ogTitle": "L’aventure LysLan – Le Chocolat au Cœur du Vietnam",
+            "ogDescription": "Découvrez l’histoire de notre marque, ses valeurs et la passion derrière chaque chocolat signé LysLan."
+        },
+        "products": {
+            "title": "Produits – Chocolats LysLan",
+            "description": "Bonbons, nama, tablettes et fruits enrobés : une collection artisanale pour les amateurs de saveurs raffinées.",
+            "keywords": "bonbons chocolat, chocolat nama, tablettes chocolat, fruits enrobés de chocolat",
+            "ogTitle": "Découvrez les Collections de Chocolats Raffinés de LysLan",
+            "ogDescription": "Chaque création allie art, qualité et une expérience gustative exceptionnelle."
+        },
+        "contact": {
+            "title": "Contact – LysLan Chocolate",
+            "description": "Contactez LysLan pour passer commande, obtenir des conseils ou collaborer. Nous sommes toujours à votre écoute.",
+            "keywords": "contact chocolat, commander chocolat, boutique chocolat",
+            "ogTitle": "Contactez LysLan",
+            "ogDescription": "Envoyez-nous vos demandes ou visitez notre atelier artisanal dès aujourd’hui."
+        },
+        "checkout": {
+            "title": "Paiement – LysLan",
+            "description": "Finalisez votre commande de chocolat haut de gamme en toute sécurité avec des méthodes de paiement pratiques.",
+            "keywords": "paiement chocolat, acheter chocolat haut de gamme, commande en ligne",
+            "ogTitle": "Confirmation de Commande – Chocolats LysLan",
+            "ogDescription": "Paiement sécurisé, livraison rapide. LysLan vous accompagne dans chaque note sucrée."
+        },
+        "story": {
+            "title": "L’Histoire de la Marque – LysLan",
+            "description": "D’un rêve à un voyage : célébrer le chocolat vietnamien avec passion, savoir-faire et élégance.",
+            "keywords": "histoire de la marque, chocolatier artisan, parcours LysLan",
+            "ogTitle": "LysLan – Le Chocolat Artisanal Inspiré de l’Âme Vietnamienne",
+            "ogDescription": "L’histoire derrière LysLan – où le chocolat devient un art, un cadeau, une émotion."
+        }
+    },
+    "home": {
+        "h1": "LysLan – Chocolat Haut de Gamme du Vietnam"
+    },
+    "slideinmenu": {
+        "backtohome": {
+            "logoalt": "LysLan Chocolatier",
+            "slogan": "Porter les saveurs du chocolat vietnamien au monde"
+        },
+        "holiday": {
+            "alt": "Offrir un cadeau de la Fête de la Mi-Automne, partager l'amour !",
+            "name": "Offrir un cadeau de la Fête de la Mi-Automne, partager l'amour !"
+        },
+        "prd_list": {
+            "alt": "Liste des produits chocolatés",
+            "name": "Chocolat"
+        },
+        "contact_list": {
+            "alt": "Support client, nous contacter",
+            "name": "Contact"
+        },
+        "about_list": {
+            "alt": "À propos de LysLan",
+            "name": "L'histoire de LysLan"
+        }
+    },
+    "submenu": {
+        "name": "Chocolat",
+        "submenu_cate": {
+            "bonbon": {
+                "alt": "Produit de chocolat bonbon",
+                "name": "Bonbon Chocolaté"
+            },
+            "tablet": {
+                "alt": "Produit de chocolat en tablette",
+                "name": "Tablette de Chocolat"
+            },
+            "dragees": {
+                "alt": "Produit de chocolat enrobé de fruits secs",
+                "name": "Fruits Secs enrobés de Chocolat"
+            },
+            "nama": {
+                "alt": "Produit de chocolat nama",
+                "name": "Chocolat Nama Frais"
+            }
+        }
+    },
+    "navbar": {
+        "left": {
+            "hometitle": "Page d’accueil de LysLan – Chocolat Haut de Gamme",
+            "homearia-label": "Accueil",
+            "homepage": "ACCUEIL"
+        },
+        "logo": {
+            "arialink": "Page d’accueil de LysLan",
+            "ariavideo": "Logo LysLan",
+            "note": "Votre navigateur ne supporte pas les vidéos.",
+            "logoalt": "LysLan – Chocolat Haut de Gamme du Vietnam"
+        },
+        "contact": {
+            "contactaria": "Contact",
+            "contacttitle": "Support client et service après-vente",
+            "contactname": "CONTACT"
+        },
+        "story": {
+            "storyaria": "L’HISTOIRE DE LYSLAN",
+            "storytitle": "L’histoire de LysLan",
+            "storyname": "L’HISTOIRE DE LYSLAN"
+        },
+        "CTA": {
+            "CTAaria": "Découvrez nos chocolats haut de gamme signés LysLan",
+            "CTAtitle": "Explorer les chocolats de LysLan",
+            "CTAname": "DÉCOUVRIR"
+        },
+        "search": {
+            "searchtitle": "Rechercher un produit",
+            "searcharia": "Ouvrir la recherche",
+            "closearia": "Fermer la recherche",
+            "searchh2": "Recherchez votre saveur préférée...",
+            "placeholder": "Fruits, Intense, Authentique, Cadeau…",
+            "formaria": "Recherche de produits",
+            "submit": "Rechercher"
+        },
+        "cartaria": "Panier",
+        "carttitle": "Consulter le panier",
+        "language": {
+            "locale": "fr",
+            "pick": "Choisir la langue",
+            "tittle": "Langue",
+            "current": "Drapeau de la France",
+            "vnalt": "Vietnamien",
+            "vnname": "Vietnamien",
+            "enalt": "Anglais",
+            "enname": "Anglais"
+        }
+    },
+    "megadropmenu": {
+        "dropmenu": "CHOCOLAT",
+        "droptitle": "Nos produits chocolatés",
+        "droparia-label": "Produits LysLan",
+        "bonbon": {
+            "alt": "Produit de chocolat bonbon",
+            "name": "Bonbon Chocolaté"
+        },
+        "tablet": {
+            "alt": "Produit de chocolat en tablette",
+            "name": "Tablette de Chocolat"
+        },
+        "dragees": {
+            "alt": "Produit de chocolat enrobé",
+            "name": "Fruits Secs enrobés"
+        },
+        "nama": {
+            "alt": "Produit de chocolat nama",
+            "name": "Chocolat Nama Frais"
+        },
+        "col2": {
+            "alt": "Cadeaux en chocolat haut de gamme",
+            "h3": "Explorez notre collection de chocolats artisanaux",
+            "p": "Élaborés à partir d’ingrédients soigneusement sélectionnés, un mariage d’art et de goût. Idéal comme cadeau raffiné pour chaque occasion."
+        }
+    },
+    "section1": {
+        "sectionaria": "Video giới thiệu về quá trình sản xuất sôcôla của LysLan",
+        "videoaria": "Video giới thiệu",
+        "videonote": "Trình duyệt của bạn không hỗ trợ video.",
+        "caption1": "Hành Trình Vị Giác Bắt Đầu...",
+        "caption2": "Bằng Sự Tỉ Mỉ",
+        "caption3": "Sự Sáng Tạo",
+        "caption4": "Bằng Cả Trái Tim",
+        "caption5": "Tinh Tế Đến Từng Giọt Để Tạo Nên Viên Sô Cô La Tuyệt Hảo.",
+        "caption6": "LysLan Mang Hương Vị sô cô la Việt Nam Vươn Tầm Thế Giới",
+        "replay": "Xem lại video"
+    },
+    "video": {
+        "track": {
+            "src": "/subtitles.vi.vtt",
+            "lang": "vi",
+            "label": "Tiếng Việt"
+        }
+    },
+    "section2": {
+        "sectionaria": "Hình ảnh cô chủ và cơ sở sản xuất Sôcôla LysLan",
+        "imgalt": "Hình ảnh của cơ sở sản xuất Sôcôla LysLan, cô chủ đưa ra những loại sôcôla cao cấp",
+        "imgtitle": "Cơ sở sản xuất Sôcôla LysLan"
+    },
+    "section3": {
+        "sectionaria": "Bộ sưu tập Sôcôla Bonbon Flagship của LysLan",
+        "flagshiph2": "Vị của hành trình",
+        "flagshiph3": "Bộ sưu tập Sôcôla Bonbon thủ công từ nguyên liệu Việt",
+        "flagshiph4": "Những viên Sôcôla được tạo nên không chỉ bằng tay, mà bằng cả ký ức và sự tinh tế.",
+        "bb1": {
+            "imgalt": "Sôcôla Bonbon đỏ nhân dâu phô mai trên nền vải satin",
+            "imgtitle": "Bonbon Dâu Phô Mai",
+            "bbh4": "Bonbon Dâu Phô Mai",
+            "bbp": "“Mềm, ngọt và hơi chua nhẹ như ánh nhìn đầu tiên. Vị dâu chín mọng và phô mai trắng mịn.”",
+            "bbCTA": "Thử ngay vị ngọt ngào này"
+        },
+        "bb2": {
+            "imgalt": "Sôcôla Bonbon vị Caramel Nước Mắm vỏ xanh ánh vàng, nhân mịn",
+            "imgtitle": "Bonbon Caramel Nước Mắm",
+            "bbh4": "Bonbon Caramel Nước Mắm",
+            "bbp": "“Ngọt mềm, mặn nhẹ, một cú bắt tay táo bạo giữa caramel Pháp và nước mắm Phú Quốc.”",
+            "bbCTA": "Khám phá vị độc đáo này"
+        },
+        "bb3": {
+            "imgalt": "Sôcôla Bonbon vị Whisky phủ vàng, socola đen thủ công",
+            "imgtitle": "Bonbon Whisky",
+            "bbh4": "Bonbon Whisky",
+            "bbp": "“Hương whisky sâu lắng trong lớp nhân mềm, phủ ngoài bằng chocolate đen quyện ánh vàng một dư vị kéo dài, dành cho người trưởng thành.”",
+            "bbCTA": "Trải nghiệm vị whisky thủ công"
+        },
+        "sectionCTA": "Bạn đã sẵn sàng cho hành trình đầy hương vị chưa?",
+        "CTAbutton": "XEM TẤT CẢ 12 VỊ BONBON THỦ CÔNG"
+    },
+    "section4": {
+        "sectionaria": "Giới thiệu về nhà sáng lập của LysLan",
+        "imgalt": "Người sáng lập LysLan, cô chủ xinh đẹp bên những viên sôcôla thủ công",
+        "imgtitle": "Nhà sáng lập LysLan",
+        "h2": {
+            "span1": "Hành Trình Của ",
+            "span2": "Nghệ Thuật",
+            "span3": " và ",
+            "span4": "Đam Mê"
+        },
+        "h3": "“LysLan bắt đầu từ một nỗi nhớ – và lớn lên từ một khát khao đưa hương vị Việt ra thế giới....”",
+        "CTA": "Gặp Gỡ Người Sáng Lập",
+        "signature": "Đoàn Nhược Lan",
+        "letter": {
+            "h2": "Lá thư từ nhà sáng lập",
+            "p1": "Tại LysLan, di sản và sáng tạo hòa quyện một cách hoàn hảo trong mỗi sản phẩm sôcôla. Nhà sáng lập, với niềm đam mê mãnh liệt đối với văn hóa và hương vị Việt Nam, đã khao khát một ước mơ: mang những hương vị đặc trưng của đất nước, từ các nguyên liệu độc đáo như nước mắm, đá me, cà phê sữa đá cho đến những nông sản thuần Việt như chanh mật ong, hạt điều, dâu tây ra thế giới thông qua những viên sôcôla đầy sáng tạo.",
+            "p2": "Mỗi tác phẩm sôcôla của LysLan không chỉ là một món quà ngọt ngào, mà là sự kết hợp tinh tế giữa hương vị phong phú của nhiều nền văn hóa và nghệ thuật chế tác sôcôla thủ công tỉ mỉ từ Pháp. Hành trình khám phá thế giới của nhà sáng lập không chỉ dừng lại ở việc tìm kiếm nguyên liệu cao cấp mà còn là việc chắt lọc và đưa những tinh hoa ẩm thực từ Việt Nam vào từng viên sôcôla, tạo nên một sản phẩm độc đáo và khác biệt.",
+            "p3": "Sôcôla LysLan là sự kết tinh hoàn hảo giữa di sản văn hóa và sáng tạo nghệ thuật. Chúng tôi sử dụng những nguyên liệu thượng hạng và kỹ thuật chế tác tinh xảo để mang đến cho bạn một trải nghiệm hương vị không giống bất kỳ sản phẩm nào khác. Với mỗi viên sôcôla, chúng tôi không chỉ mang đến hương vị độc đáo mà còn là một hành trình nghệ thuật đa văn hóa, nơi truyền thống gặp gỡ hiện đại, mang đến dấu ấn khó quên trong lòng bạn."
+        }
+    },
+    "section5": {
+        "sectionaria": "Các dòng sản phẩm sôcôla của LysLan",
+        "h2": "Bốn Dòng Chocolate – Bốn Cách Thưởng Thức",
+        "h3": "“Mỗi người có một gu vị giác. Nhưng với LysLan, mọi gu đều có cách chạm đến trái tim.”",
+        "bonbon": {
+            "imgalt": "Hộp sôcôla bonbon thủ công 12 viên từ thương hiệu LysLan",
+            "imgtitle": "Sôcôla Bonbon",
+            "h4": "“Mỗi viên là một ký ức.”",
+            "CTA": "Xem BonBon"
+        },
+        "tablet": {
+            "imgalt": "Thanh sôcôla có nhân đậm vị cacao Việt của LysLan",
+            "imgtitle": "Sôcôla Thanh",
+            "h4": "“Truyền thống – Đậm đà.”",
+            "CTA": "Xem Sôcôla Thanh"
+        },
+        "dragees": {
+            "imgalt": "Hạt điều, hạt hạnh nhân phủ socola cao cấp đóng gói sang trọng thương hiệu LysLan",
+            "imgtitle": "Sôcôla Phủ Hạt",
+            "h4": "“Snack cao cấp, nhâm nhi.”",
+            "CTA": "Xem Sôcôla Phủ Hạt"
+        },
+        "nama": {
+            "imgalt": "Nama socola mềm mịn, hộp chocolate tươi phong cách Nhật của LysLan",
+            "imgtitle": "Sôcôla Nama",
+            "h4": "“Tan mềm, mát, tinh tế.”",
+            "CTA": "Xem Sôcôla Nama"
+        },
+        "sectionCTA": "KHÁM PHÁ NGAY TOÀN BỘ SẢN PHẨM CHOCOLATE CỦA LYSLAN"
+    },
+    "section6": {
+        "sectionaria": "Sôcôla LysLan được chế tác từ hạt cacao trồng tại Việt Nam, mang hương vị đặc sắc",
+        "h2": "Từ Hạt Cacao Đến Viên Sôcôla",
+        "h3": "“Mỗi hạt cacao, qua bàn tay và tâm huyết, biến thành viên sôcôla cao cấp với hương vị nguyên bản nhất.”",
+        "imgslideshow": {
+            "imgalt1": "Hình cây cacao trồng tại Việt Nam",
+            "imgtitle1": "Cây cacao",
+            "imgalt2": "Trái cacao chín được tách ra chuẩn bị lấy hạt",
+            "imgtitle2": "Quả cacao",
+            "imgalt3": "Hạt cacao đã được phơi khô",
+            "imgtitle3": "Hạt cacao khô",
+            "imgalt4": "Hạt cacao nibs sau khi lên men và rang",
+            "imgtitle4": "Hạt nibs"
+        },
+        "cocoaimgalt": "Chữ cacao hình trái cacao",
+        "h4": "Quy trình tạo nên Sôcôla từ trái",
+        "CTA": "Khám phá hành trình",
+        "grindingalt": "Nghiền sôcôla từ hạt nibs",
+        "grindingtitle": "Nghiền hạt nibs thành sôcôla"
+    },
+    "section7": {
+        "sectionaria": "Chế tác sôcôla thủ công cao cấp",
+        "img1alt": "Sôcôla đổ khuôn thủ công",
+        "img1title": "Sôcôla được đổ vào khuôn",
+        "h2": "Chế tác bằng cả",
+        "h3": "Con tim",
+        "p": "“Tại LysLan, sôcôla không chỉ là món ăn. Mỗi viên sôcôla là một tác phẩm thủ công được chế tác tỉ mỉ từ tâm huyết của con tim và sáng tạo.”",
+        "CTA": "Tìm Hiểu Thêm",
+        "img2alt": "Bơm nhân vào trong viên sôcôla",
+        "img2title": "Bơm nhân vào trong viên sôcôla"
+    },
+    "section8": {
+        "sectionaria": "Social media của LysLan",
+        "img1alt": "Viên sôcôla bonbon đặt trên đĩa cùng tách cà phê",
+        "img1title": "Bonbon nhân dứa dừa và rượu rum",
+        "img2alt": "12 vị sôcôla bonbon của LysLan",
+        "img2title": "Bộ sưu tập 12 vị sôcôla bonbon",
+        "img3alt": "Nhân chảy của viên sôcôla",
+        "img3title": "Nhân chảy của caramel nước mắm"
+    },
+    "footer": {
+        "logop": "“Mang hương vị sôcôla Việt Nam vươn tầm thế giới”",
+        "categoryh2": "KHÁM PHÁ",
+        "cate1": "Sôcôla Bonbon",
+        "cate2": "Sôcôla Thanh",
+        "cate3": "Sôcôla Phủ Hạt",
+        "cate4": "Sôcôla Nama",
+        "contactcategory": "LYSLAN CHOCOLATIER",
+        "Blog": "Tin Tức & Blog",
+        "FAQ": "Các câu hỏi thường gặp",
+        "shipping": "Giao hàng & Vận chuyển",
+        "contactus": "Liên hệ với chúng tôi",
+        "policy": "Điều khoản dịch vụ",
+        "security": "Chính sách bảo mật",
+        "returnpolicy": "Chính sách đổi trả",
+        "Subscription": {
+            "title": "Đăng ký nhận tin",
+            "description": "Nhận thông tin mới nhất về sản phẩm, ưu đãi và tin tức từ LysLan.",
+            "placeholder": "Nhập email của bạn",
+            "subscribe": "Đăng ký"
+        },
+        "copyright": "© 2025 LysLan Chocolatier | Made with ❤️ in Vietnam"
+    },
+    "Aboutus": {
+        "h1": "LysLan - Về câu chuyện của chúng tôi, hành trình tìm đưa hương vị Việt vào trong sôcôla",
+        "breadcrumb": {
+            "home": "Trang chủ",
+            "about": "Câu chuyện LysLan"
+        },
+        "herobanner": {
+            "sectionaria": "Chúng tôi không chỉ làm ra socola – chúng tôi kể chuyện Việt qua từng viên kẹo.",
+            "imgalt": "Mang Socola Việt ra thế giới",
+            "imgtitle": "Ms Đoàn Nhược Lan bên cạnh những viên sôcôla thủ công",
+            "h2": "Bring Vietnam's chocolate to the world"
+        },
+        "section1": {
+            "sectionaria": "LysLan - Khởi đầu từ 1 giấc mơ Việt",
+            "h2": "“Lyslan khởi đầu từ một ước mơ rất đơn giản: mang hương vị Việt đến thế giới qua những viên chocolate. Mỗi viên chocolate là tâm huyết, là niềm tin mãnh liệt vào giá trị thực sự của quê nhà.”",
+            "imgalt": "Hình ảnh cô chủ bên cạnh giám đốc điều hành người Pháp",
+            "imgtitle": "CEO Đoàn Nhược Lan và COD Serge Perrin Merinos",
+            "h3": "LysLan – Mang hương vị Việt vào từng viên chocolate",
+            "p1": "Hành trình của LysLan bắt đầu từ câu chuyện của một nữ doanh nhân, người đã có cơ hội trải nghiệm và tìm hiểu chocolate tại nhiều quốc gia trên thế giới thông qua những chuyến công tác và gặp gỡ đối tác.",
+            "p2": "Tuy nhiên, dù được thưởng thức những sản phẩm chocolate quốc tế đặc sắc nhất, chị vẫn luôn cảm nhận được một sự thiếu vắng nhẹ nhàng đó là nét riêng, là hương vị cacao, hương vị món ăn quen thuộc từ quê hương Việt Nam.",
+            "p3": "Chính từ niềm trăn trở ấy, chị đã nuôi dưỡng ý tưởng xây dựng LysLan với mong muốn đưa hương vị Việt tinh tế vào từng viên chocolate. LysLan ra đời với những dòng sản phẩm chocolate bonbon, chocolate thanh có nhân và chocolate phủ hạt được làm thủ công, không chỉ để tôn vinh giá trị nguyên bản của cacao Việt, món ăn Việt, mà còn là sự hòa quyện tinh tế giữa truyền thống và hiện đại, đem đến trải nghiệm nhẹ nhàng, thanh lịch và gần gũi với nguồn cội.",
+            "p4": "Với LysLan, chocolate trở thành một cách để kể những câu chuyện nhẹ nhàng về quê hương, nơi mỗi viên chocolate đều chứa đựng chút tình cảm chân thật và sự tinh tế trong từng chi tiết nhỏ nhất.",
+            "CTA": "Xem thêm",
+            "CTAafter": "Ẩn bớt",
+            "imgalt2": "Hình ảnh những viên socola bonbon",
+            "imgtitle2": "Sôcôla Bonbon"
+        },
+        "section2": {
+            "sectionaria": "Giá trị cốt lõi",
+            "mobile": {
+                "div1": {
+                    "arialabel": "Bonbon vị thơm dừa và rượu rum",
+                    "h2": "Tinh Tế & Sáng Tạo"
+                },
+                "div2": {
+                    "h2": "Nguyên liệu thuần Việt"
+                },
+                "div3": {
+                    "arialabel": "Nghiền chocolate",
+                    "span": "Hình ảnh máy nghiền đang nghiền chocolate"
+                },
+                "logo": {
+                    "alt": "Logo của LysLan"
+                },
+                "img4": {
+                    "alt": "Socola Nama vị Matcha Nhật Bản và Đài Loan"
+                },
+                "img5": {
+                    "alt": "Bơm socola Nama vào các khuôn"
+                },
+                "img6": {
+                    "alt": "Thanh socola trắng vị dừa"
+                },
+                "img7": {
+                    "alt": "Quá trình đổ khuôn chocolate"
+                },
+                "img8": {
+                    "alt": "Các viên bonbon socola vị chè bưởi độc đáo"
+                },
+                "img9": {
+                    "alt": "Hạt hạnh nhân phủ socola vị cà phê trứng"
+                },
+                "img10": {
+                    "alt": "Chữ Sôcôla"
+                },
+                "div4": {
+                    "arialabel": "Chế tác thủ công",
+                    "h2": "Chế tác thủ công"
+                },
+                "div5": {
+                    "h2": "Nguyên Chất và Thượng Hạng"
+                }
+            },
+            "desktop": {
+                "arialabel": "Giá trị cốt lõi của LysLan",
+                "div1": {
+                    "arialabel": "Viên socola bonbon vị thơm dừa và rượu rum",
+                    "spansr": "Viên socola bonbon vị thơm dừa đặt trên dĩa nền trắng sang trọng",
+                    "s1": "Tinh",
+                    "s2": "Tế",
+                    "s3": "&",
+                    "s4": "Sáng",
+                    "s5": "Tạo"
+                },
+                "div2": "Nguyên liệu thuần Việt",
+                "div3": {
+                    "arialabel": "Quá trình đổ khuôn chocolate",
+                    "spansr": "Quá trình đổ khuôn chocolate",
+                    "s1": "Chế",
+                    "s2": "Tác",
+                    "s3": "Thủ",
+                    "s4": "Công"
+                },
+                "div4": {
+                    "arialabel": "Quá trình nghiền chocolate",
+                    "spansr": "Quá trình nghiền chocolate"
+                },
+                "div5": {
+                    "alt": "Chữ SôCôLa",
+                    "s1": "Nguyên",
+                    "s2": "Chất",
+                    "s3": "&",
+                    "s4": "Thượng",
+                    "s5": "Hạng"
+                },
+                "logo": {
+                    "alt": "Logo của LysLan"
+                },
+                "div6": {
+                    "alt1": "Người thợ đóng gói tỉ mỉ các thanh sôcôla",
+                    "alt2": "Bơm sôcôla Nama vào các khuôn",
+                    "alt3": "Sôcôla Nama vị Matcha Nhật Bản và Đài Loan"
+                },
+                "div7": {
+                    "arialabel": "Thanh socola trắng vị dừa",
+                    "spansr": "Thanh socola trắng vị dừa"
+                },
+                "div8": {
+                    "alt1": "Các viên bonbon sôcôla vị chè bưởi độc đáo",
+                    "alt2": "Hạt hạnh nhân phủ socola vị cà phê trứng"
+                }
+            }
+        },
+        "section3": {
+            "sectionaria": "Nous sommes présents à",
+            "h2": "LysLan est désormais présent à",
+            "blockquote": "« Nous ne vendons pas de chocolat. Nous vous invitons à un voyage sensoriel. »",
+            "location1": {
+                "imgalt": "Présenté chez Légumes",
+                "imgatitle": "Légumes - 40 Nguyễn Cừ, P. Thảo Điền, Thu Duc, Hô-Chi-Minh-Ville",
+                "h2": "Légumes",
+                "h3": "40 Nguyễn Cừ, P. Thảo Điền, Thu Duc, Hô-Chi-Minh-Ville",
+                "open": "Heures d'ouverture",
+                "time": "Lun-Dim : 7h00 - 21h30",
+                "tagline": "Là où le cacao flotte dans l’air de Saïgon"
+            },
+            "location2": {
+                "imgalt": "Présenté chez Kokonic",
+                "imgatitle": "Kokonic - 113 Xuân Thủy, P. Thảo Điền, Thu Duc, Hô-Chi-Minh-Ville",
+                "h2": "Kokonic",
+                "h3": "113 Xuân Thủy, P. Thảo Điền, Thu Duc, Hô-Chi-Minh-Ville",
+                "open": "Heures d'ouverture",
+                "time": "Lun-Dim : 7h00 - 21h30",
+                "tagline": "Un havre de paix au cœur de la ville, riche en saveurs vietnamiennes"
+            }
+        }
+    }
+}

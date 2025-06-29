@@ -1,0 +1,748 @@
+{
+  "site": {
+    "title": "LysLan - Artisanal Premium Chocolate",
+    "description": "Discover LysLan – a Vietnamese premium chocolate brand offering bonbons, bars, nama, and chocolate-covered nuts, crafted with artisanal precision.",
+    "keywords": "premium chocolate, artisanal chocolate, nama chocolate, chocolate bonbons, chocolate gifts, LysLan"
+  },
+  "metadata": {
+    "home": {
+      "title": "Home - LysLan - World of Artisanal Premium Chocolate",
+      "description": "Explore a world of handcrafted chocolate: artistic bonbons, melt-in-your-mouth nama, chocolate-coated nuts and more.",
+      "keywords": "artisanal chocolate, bonbons, nama chocolate, Vietnamese chocolate",
+      "ogTitle": "LysLan - Premium Artisanal Chocolate Experience",
+      "ogDescription": "Savor rich chocolate crafted by Vietnamese chocolatiers using the finest ingredients.",
+      "ogImage": "/images/og-home-en.jpg"
+    },
+    "about": {
+      "title": "About Us - LysLan Chocolatier",
+      "description": "LysLan is a premium artisanal chocolate brand, born from passion and a vision to elevate Vietnamese chocolate globally.",
+      "keywords": "Vietnamese chocolate brand, artisan chocolate, handcrafted chocolate",
+      "ogTitle": "The Journey of LysLan - Chocolate from the Heart of Vietnam",
+      "ogDescription": "Discover the story, values, and passion behind every LysLan chocolate creation."
+    },
+    "products": {
+      "title": "Products - LysLan Chocolate",
+      "description": "From bonbons and nama to bars and chocolate-coated nuts – LysLan offers handcrafted chocolates for refined palates.",
+      "keywords": "bonbons, nama chocolate, chocolate bars, chocolate-covered nuts",
+      "ogTitle": "Explore LysLan's Exquisite Chocolate Collections",
+      "ogDescription": "Every chocolate is a blend of artistry, quality, and extraordinary flavor."
+    },
+    "contact": {
+      "title": "Contact - LysLan Chocolate",
+      "description": "Reach out to LysLan to place orders, get consultation, or explore collaboration opportunities. We're here for you.",
+      "keywords": "contact chocolate, chocolate order, LysLan store Hanoi",
+      "ogTitle": "Get in Touch with LysLan",
+      "ogDescription": "Send us your request or visit our artisanal chocolate atelier today."
+    },
+    "checkout": {
+      "title": "Checkout - LysLan",
+      "description": "Complete your premium chocolate order with secure and convenient payment methods.",
+      "keywords": "checkout chocolate, buy premium chocolate, online order",
+      "ogTitle": "Confirm Your Chocolate Order - LysLan",
+      "ogDescription": "Secure payment and fast delivery. LysLan is with you every step of the sweet journey."
+    },
+    "story": {
+      "title": "Our Story - LysLan",
+      "description": "From a small dream to a journey honoring Vietnamese chocolate with craftsmanship, heart, and elegance.",
+      "keywords": "brand story, artisan chocolate, LysLan journey",
+      "ogTitle": "LysLan - Chocolate from the Soul of Vietnam",
+      "ogDescription": "The story behind LysLan – where chocolate is not just a gift, but a work of art."
+    },
+    "FAQs": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "description": "Collection of common customer answers to questions about products and services.",
+      "keywords": "",
+      "ogTitle": "FREQUENTLY ASKED QUESTIONS",
+      "ogDescription": "Collection of common customer answers to questions about products and services."
+    }
+  },
+  "home": {
+    "h1": "LysLan – Premium Vietnamese Chocolate"
+  },
+  "slideinmenu": {
+    "backtohome": {
+      "logoalt": "LysLan Chocolatier",
+      "slogan": "Bring Vietnam's Chocolate to the World"
+    },
+    "holiday": {
+      "alt": "Mid-Autumn Gifting – Share Love with Chocolate!",
+      "name": "MID-AUTUMN GIFTING – SHARE LOVE, GIVE CHOCOLATE!"
+    },
+    "prd_list": {
+      "alt": "Our Chocolate Collection",
+      "name": "CHOCOLATE"
+    },
+    "contact_list": {
+      "alt": "Customer Care & Support",
+      "name": "CONTACT"
+    },
+    "about_list": {
+      "alt": "About LysLan",
+      "name": "THE LYSLAN STORY"
+    }
+  },
+  "submenu": {
+    "name": "CHOCOLATE",
+    "submenu_cate": {
+      "bonbon": {
+        "alt": "Bonbon Chocolates",
+        "name": "Chocolate Bonbons"
+      },
+      "tablet": {
+        "alt": "Chocolate Bars",
+        "name": "Chocolate Tablets"
+      },
+      "dragees": {
+        "alt": "Chocolate-Covered Nuts",
+        "name": "Chocolate Dragées"
+      },
+      "nama": {
+        "alt": "Nama Chocolates",
+        "name": "Chocolate Namas"
+      }
+    }
+  },
+  "navbar": {
+    "left": {
+      "hometitle": "LysLan – A Taste of Vietnam in Every Chocolate | Home",
+      "homearia-label": "Home",
+      "homepage": "HOME"
+    },
+    "logo": {
+      "arialink": "LysLan Homepage",
+      "ariavideo": "Logo LysLan",
+      "note": "Your browser does not support video playback.",
+      "logoalt": "LysLan - Premium Vietnam's Chocolate"
+    },
+    "contact": {
+      "contactaria": "Contact",
+      "contacttitle": "For support directly",
+      "contactname": "CONTACT"
+    },
+    "story": {
+      "storyaria": "The LysLan Story",
+      "storytitle": "About LysLan",
+      "storyname": "THE LYSLAN STORY"
+    },
+    "CTA": {
+      "CTAaria": "Discover LysLan’s Finest Chocolate Creations",
+      "CTAtitle": "Explore LysLan chocolate",
+      "CTAname": "DISCOVER NOW"
+    },
+    "search": {
+      "searchtitle": "Search for product",
+      "searcharia": "Use Search",
+      "closearia": "Close Search",
+      "searchh2": "Search for your favorite flavor...",
+      "placeholder": "Fruity Notes, Bold Taste, Flavors of Home, Gift Ideas...",
+      "formaria": "Search for chocolate flavour or product",
+      "submit": "Search"
+    },
+    "cartaria": "Cart",
+    "carttitle": "Check your cart",
+    "language": {
+      "locale": "en",
+      "pick": "Pick Language",
+      "tittle": "Language",
+      "current": "Vietnam flag",
+      "vnalt": "Tiếng Việt",
+      "vnname": "Tiếng Việt",
+      "enalt": "English",
+      "enname": "English"
+    }
+  },
+  "megadropmenu": {
+    "dropmenu": "CHOCOLATE",
+    "droptitle": "Chocolate product",
+    "droparia-label": "LysLan Chocolate product",
+    "bonbon": {
+      "alt": "Bonbon Chocolates",
+      "name": "Chocolate Bonbons"
+    },
+    "tablet": {
+      "alt": "Chocolate Bars",
+      "name": "Chocolate Tablets"
+    },
+    "dragees": {
+      "alt": "Chocolate-Covered Nuts",
+      "name": "Chocolate Dragées"
+    },
+    "nama": {
+      "alt": "Nama Chocolates",
+      "name": "Chocolate Namas"
+    },
+    "col2": {
+      "alt": "Premium Chocolate Gifts",
+      "h3": "Explore Our Handcrafted Chocolate Collection",
+      "p": "Expertly created using the finest ingredients, our chocolates are a harmonious blend of craftsmanship and refined flavor — A sophisticated gift for every occasion."
+    }
+  },
+  "section1": {
+    "sectionaria": "Behind the Scenes – The Making of LysLan Chocolate",
+    "videoaria": "Intro Video",
+    "videonote": "Your browser does not support video playback.",
+    "caption1": "A Flavorful Journey Begins...",
+    "caption2": "With Meticulous Craftsmanship",
+    "caption3": "With Boundless Creativity",
+    "caption4": "With Heartfelt Passion",
+    "caption5": "Every Drop Refined, Every Detail Perfected — To Create the Ultimate Chocolate Experience.",
+    "caption6": "LysLan – Bring Vietnam's Chocolate to the World",
+    "replay": "Replay Video"
+  },
+  "video": {
+    "track": {
+      "src": "/subtitles.en.vtt",
+      "lang": "en",
+      "label": "English"
+    }
+  },
+  "section2": {
+    "sectionaria": "Images of the Founder and LysLan’s Chocolate Atelier",
+    "imgalt": "Photos of LysLan’s chocolate workshop, where the founder personally presents her finest chocolate creations.",
+    "imgtitle": "LysLan’s Chocolate Atelier"
+  },
+  "section3": {
+    "sectionaria": "LysLan’s Flagship Bonbon Chocolate Collection",
+    "flagshiph2": "The Flavor of a Journey",
+    "flagshiph3": "A handcrafted bonbon collection made from Vietnamese ingredients",
+    "flagshiph4": "Each piece shaped not only by hand, but by memories and exquisite care.",
+    "bb1": {
+      "imgalt": "A signature red bonbon filled with strawberry and cream cheese, delicately placed on a satin backdrop — where flavor meets elegance.",
+      "imgtitle": "Strawberry Cheese Bonbon",
+      "bbh4": "Strawberry Cheese Bonbon",
+      "bbp": "“Soft, sweet, and gently tart — like a first glance. Ripe strawberries meet silky white cheese in a moment of harmony.”",
+      "bbCTA": "Taste this sweet indulgence"
+    },
+    "bb2": {
+      "imgalt": "Blue-gold bonbon with a smooth filling of French caramel and Phu Quoc fish sauce – bold, refined, unforgettable.",
+      "imgtitle": "Fish Sauce Caramel Bonbon",
+      "bbh4": "Fish Sauce Caramel Bonbon",
+      "bbp": "“Silky, gently salty — a daring fusion of fine French caramel and traditional Phu Quoc fish sauce.”",
+      "bbCTA": "Discover this bold creation"
+    },
+    "bb3": {
+      "imgalt": "Gold-dusted dark chocolate bonbon with a rich whisky center – an elegant indulgence for the mature palate.",
+      "imgtitle": "Whisky Bonbon",
+      "bbh4": "Whisky Bonbon",
+      "bbp": "“Deep whisky notes wrapped in a soft center, coated in dark chocolate with a golden notes — a long-lasting impression for the refined soul.”",
+      "bbCTA": "Experience this artisanal flavor"
+    },
+    "sectionCTA": "Are you ready for a journey of unforgettable flavors?",
+    "CTAbutton": "VIEW ALL 12 BONBON FLAVORS"
+  },
+  "section4": {
+    "sectionaria": "Story about the founder of LysLan",
+    "imgalt": "The founder of LysLan, the beautiful lady behind the handcrafted chocolates.",
+    "imgtitle": "LysLan's Founder",
+    "h2": {
+      "span1": "A Journey of ",
+      "span2": "Artistry",
+      "span3": " and ",
+      "span4": "Passion"
+    },
+    "h3": "“LysLan began with a longing — and grew from a dream to share the soul of Vietnamese flavor with the world...”",
+    "CTA": "Meet the Founder",
+    "signature": "Đoàn Nhược Lan",
+    "letter": {
+      "h2": "Letter from the Founder",
+      "p1": "At LysLan, heritage and creativity are delicately woven into every chocolate creation. With a deep passion for Vietnamese culture and flavors, our founder held a heartfelt dream: to bring the distinctive tastes of her homeland to the world — from iconic ingredients like fish sauce, tamarind stone, and iced milk coffee, to beloved local produce such as honey lime, cashews, and strawberries — all reimagined into bold, innovative bonbons.",
+      "p2": "Every piece of LysLan chocolate is not only a sweet gift, but a sophisticated fusion of global flavor and meticulous French-inspired craftsmanship. The founder’s journey across the world wasn’t merely about sourcing premium ingredients — it was about distilling the essence of Vietnamese culinary heritage into each bonbon, creating a product that is both unique and meaningful.",
+      "p3": "LysLan chocolate is the perfect union of cultural heritage and artistic innovation. We use only the finest ingredients and precise techniques to craft an experience like no other. With every bonbon, we invite you into a multicultural journey where tradition meets modern artistry — leaving an unforgettable impression with each bite."
+    }
+  },
+  "section5": {
+    "sectionaria": "All of chocolate product from LysLan",
+    "h2": "Four Chocolate Collections – Four Ways to Indulge",
+    "h3": "“Everyone has a unique taste. At LysLan, each one finds its way to the heart.”",
+    "bonbon": {
+      "imgalt": "Box of 12 handcrafted bonbons by LysLan",
+      "imgtitle": "Chocolate Bonbons",
+      "h4": "“Each piece holds a memory.”",
+      "CTA": "View Bonbons Chocolate"
+    },
+    "tablet": {
+      "imgalt": "Vietnamese cacao chocolate bar with rich filling by LysLan",
+      "imgtitle": "Chocolate Tablets",
+      "h4": "“Tradition — Deep and Bold.”",
+      "CTA": "View Tablets Chocolate"
+    },
+    "dragees": {
+      "imgalt": "Premium chocolate-covered cashews and almonds in elegant packaging by LysLan",
+      "imgtitle": "Chocolate Dragées",
+      "h4": "“Premium snacking, refined indulgence.”",
+      "CTA": "View Dragées Chocolate"
+    },
+    "nama": {
+      "imgalt": "Silky, melt-in-your-mouth Nama chocolate in Japanese-inspired gift box by LysLan",
+      "imgtitle": "Chocolate Namas",
+      "h4": "“Smooth, cool, and refined.”",
+      "CTA": "View Namas Chocolate"
+    },
+    "sectionCTA": "Explore the World of LysLan Chocolates"
+  },
+  "section6": {
+    "sectionaria": "LysLan chocolate is crafted from cacao grown in Vietnam, offering a uniquely authentic flavor",
+    "h2": "From Cacao Bean to Chocolate Bar",
+    "h3": "“From native soil to silky chocolate, LysLan transforms Vietnam’s finest cacao into unforgettable creations.”",
+    "imgslideshow": {
+      "imgalt1": "Cocoa tree grown in Vietnam",
+      "imgtitle1": "Cocoa Tree",
+      "imgalt2": "Ripe cocoa pod opened to reveal beans",
+      "imgtitle2": "Cocoa Pod",
+      "imgalt4": "Dried cacao beans",
+      "imgtitle4": "Cacao Beans",
+      "imgalt3": "Roasted and fermented cacao nibs",
+      "imgtitle3": "Cacao Nibs"
+    },
+    "cocoaimgalt": "Cocoa word in the cocoa shape",
+    "h4": "The Journey of Chocolate from",
+    "CTA": "Explore the Journey",
+    "grindingalt": "Grinding chocolate from cacao nibs",
+    "grindingtitle": "Grinding chocolate from cacao nibs"
+  },
+  "section7": {
+    "sectionaria": "Crafting Premium Artisan Chocolate",
+    "img1alt": "Chocolate pouring into molds",
+    "img1title": "Chocolate being poured into molds",
+    "h2": "Crafted with Nothing Less Than",
+    "h3": "Heart",
+    "p": "“At LysLan, chocolate is more than a delicacy. Each bonbon is a handcrafted work of art, meticulously created with heartfelt dedication and creativity.”",
+    "CTA": "Learn More",
+    "img2alt": "Fill the chocolate with the filling.",
+    "img2title": "Fill the chocolate with the filling."
+  },
+  "section8": {
+    "sectionaria": "LysLan's Social Media",
+    "img1alt": "Bonbon served on a plate with a cup of coffee",
+    "img1title": "Bonbon rum pineapple coconut flavor",
+    "img2alt": "LysLan’s 12 bonbon flavors",
+    "img2title": "Collection of 12 bonbon flavors",
+    "img3alt": "Melted ganache center of a chocolate bonbon",
+    "img3title": "Melted ganache center of a chocolate bonbon"
+  },
+  "footer": {
+    "logop": "“Bring Vietnam's Chocolate to the World”",
+    "categoryh2": "EXPLORE",
+    "cate1": "Chocolate Bonbons",
+    "cate2": "Chocolate Tablets",
+    "cate3": "Chocolate Dragées",
+    "cate4": "Chocolate Namas",
+    "contactcategory": "LYSLAN CHOCOLATIER",
+    "Blog": "News & Blog",
+    "FAQ": "FAQs",
+    "shipping": "Shipping & Delivery",
+    "contactus": "Contact Us",
+    "policy": "Terms of Service",
+    "security": "Privacy Policy",
+    "returnpolicy": "Return & Exchange Policy",
+    "Subscription": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get the latest updates on products, promotions, and news from LysLan.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "copyright": "© 2025 LysLan Chocolatier | Made with ❤️ in Vietnam"
+  },
+  "Aboutus": {
+    "herobanner": {
+      "sectionaria": "We don't just make chocolate – we tell Vietnam’s stories through every piece.",
+      "imgalt": "Bringing Vietnamese Chocolate to the World",
+      "imgtitle": "Ms. Doan Nhuoc Lan next to handcrafted chocolate pieces",
+      "h2": "Bring Vietnam's chocolate to the world"
+    },
+    "section1": {
+      "sectionaria": "LysLan - Born from a Vietnamese dream",
+      "h2": "“LysLan began with a simple dream: to bring the flavors of Vietnam to the world through chocolate. Each chocolate piece embodies passion and a deep belief in the true values of our homeland.”",
+      "imgalt": "Founder alongside French COD",
+      "imgtitle": "CEO Đoàn Nhược Lan and COD Serge Perrin Merinos",
+      "h3": "LysLan – Bringing Vietnamese Flavors to Every Chocolate Piece",
+      "p1": "LysLan's journey began with the story of a female entrepreneur who had the opportunity to experience and learn about chocolate from various countries around the world through business trips and meetings.",
+      "p2": "Yet, despite tasting the finest international chocolates, she always felt something subtly missing—the unique cocoa nuances and familiar flavors from her Vietnamese heritage.",
+      "p3": "Driven by this inspiration, she nurtured the idea to establish LysLan with the aim of delicately infusing Vietnamese flavors into each piece of chocolate. LysLan emerged with handcrafted bonbons, filled chocolate bars, and chocolate-covered nuts, not only celebrating the authentic values of Vietnamese cocoa and traditional flavors but also elegantly blending tradition and modernity to deliver a gentle, refined, and deeply nostalgic experience.",
+      "p4": "At LysLan, chocolate becomes a medium to gently narrate stories of Vietnam, where each chocolate piece carries heartfelt emotion and meticulous attention to detail.",
+      "CTA": "Read more",
+      "CTAafter": "Show less",
+      "imgalt2": "Handmade chocolate bonbons",
+      "imgtitle2": "Bonbon chocolate"
+    },
+    "section2": {
+      "sectionaria": "Our Philosophy",
+      "mobile": {
+        "div1": {
+          "arialabel": "Bonbon Pineapple Coconut Rum",
+          "h2": "Elegance, Refinement & Creativity"
+        },
+        "div2": {
+          "h2": "Purely Vietnamese Ingredients"
+        },
+        "div3": {
+          "arialabel": "Chocolate grinding process",
+          "span": "Image of the chocolate grinding process"
+        },
+        "logo": {
+          "alt": "LysLan's Logo"
+        },
+        "img4": {
+          "alt": "Nama chocolate with Matcha flavors from Japan and Taiwan"
+        },
+        "img5": {
+          "alt": "Pouring Nama chocolate into molds"
+        },
+        "img6": {
+          "alt": "Coconut-flavored white chocolate bar"
+        },
+        "img7": {
+          "alt": "Handcrafted chocolate molding process"
+        },
+        "img8": {
+          "alt": "Unique pomelo dessert-flavored bonbon chocolates"
+        },
+        "img9": {
+          "alt": "Egg coffee-flavored chocolate-coated almonds"
+        },
+        "img10": {
+          "alt": "The word 'Sôcôla'"
+        },
+        "div4": {
+          "arialabel": "Artisanal Craftsmanship",
+          "h2": "Artisanal Craftsmanship"
+        },
+        "div5": {
+          "h2": "Pure and Premium"
+        }
+      },
+      "desktop": {
+        "arialabel": "Our Philosophy",
+        "div1": {
+          "arialabel": "Bonbon Pineapple Coconut Rum",
+          "spansr": "Coconut pineapple flavor bonbon chocolate placed elegantly on a white plate",
+          "s1": "Elegance,",
+          "s2": "Refinement",
+          "s3": "&",
+          "s4": "Creativity",
+          "s5": ""
+        },
+        "div2": "Purely Vietnamese Ingredients",
+        "div3": {
+          "arialabel": "Handcrafted chocolate molding process",
+          "spansr": "Handcrafted chocolate molding process",
+          "s1": "Artisanal",
+          "s2": "Crafts-",
+          "s3": "manship",
+          "s4": ""
+        },
+        "div4": {
+          "arialabel": "Chocolate grinding process",
+          "spansr": "Image of the chocolate grinding process"
+        },
+        "div5": {
+          "alt": "The word 'Sôcôla'",
+          "s1": "Pure",
+          "s2": "",
+          "s3": "and",
+          "s4": "Premium",
+          "s5": ""
+        },
+        "logo": {
+          "alt": "LysLan's Logo"
+        },
+        "div6": {
+          "alt1": "Artisan carefully packaging chocolate bars",
+          "alt2": "Pouring Nama chocolate into molds",
+          "alt3": "Nama chocolate with Matcha flavors from Japan and Taiwan"
+        },
+        "div7": {
+          "arialabel": "Coconut-flavored white chocolate bar",
+          "spansr": "Coconut-flavored white chocolate bar"
+        },
+        "div8": {
+          "alt1": "Unique pomelo dessert-flavored bonbon chocolates",
+          "alt2": "Egg coffee-flavored chocolate-coated almonds"
+        }
+      }
+    },
+    "section3": {
+      "sectionaria": "Our Locations",
+      "h2": "Find LysLan at",
+      "blockquote": "“We don’t sell chocolate. We invite you on a journey of taste.”",
+      "location1": {
+        "imgalt": "Display at Légumes",
+        "imgatitle": "Légumes - 40 Nguyen Cu St., Thao Dien Ward, Thu Duc City, Ho Chi Minh City",
+        "h2": "Légumes",
+        "h3": "40 Nguyen Cu St., Thao Dien Ward, Thu Duc City, Ho Chi Minh City",
+        "open": "Opening Hours",
+        "time": "Mon-Sun: 7:00 AM - 9:30 PM",
+        "tagline": "Where cacao lingers in the air of Saigon."
+      },
+      "location2": {
+        "imgalt": "Display at Kokonic",
+        "imgatitle": "113 Xuan Thuy St., Thao Dien Ward, Thu Duc City, Ho Chi Minh City",
+        "h2": "Kokonic",
+        "h3": "113 Xuan Thuy St., Thao Dien Ward, Thu Duc City, Ho Chi Minh City",
+        "open": "Opening Hours",
+        "time": "Mon-Sun: 7:00 AM - 9:30 PM",
+        "tagline": "A quiet haven in the bustling city, rich with Vietnamese flavors."
+      }
+    },
+    "section4": {
+      "section_aria": "LysLan's Team",
+      "title": "Meet the People Behind Vietnamese Chocolate’s Journey to the World",
+      "subtitle": "\"Since Lan founded LysLan, she has always been accompanied by a close-knit family, creating uniquely Vietnamese flavors.\"",
+      "members": {
+        "founder": {
+          "name": "ĐOÀN NHƯỢC LAN",
+          "position": "Founder"
+        },
+        "coo": {
+          "name": "SERGE PERRIN MERINOS",
+          "position": "Chief Operating Director"
+        },
+        "rd_director": {
+          "name": "OLGA PETUKHOVA",
+          "position": "R&D and Production Director"
+        },
+        "factory_supervisor1": {
+          "name": "ĐOÀN THIỆN BẢO",
+          "position": "Factory Supervisor"
+        },
+        "production_manager": {
+          "name": "NGUYỄN NHẬT NAM",
+          "position": "Production manager"
+        },
+        "artisan1": {
+          "name": "Our Artisans",
+          "position": "Creators of Exceptional Chocolates"
+        },
+        "artisan2": {
+          "name": "Our Artisans",
+          "position": "Creators of Exceptional Chocolates"
+        },
+        "artisan3": {
+          "name": "Our Artisans",
+          "position": "Creators of Exceptional Chocolates"
+        }
+      }
+    },
+    "section5": {
+      "section_aria": "Our chocolates",
+      "title": "Our Unique Products",
+      "CTA": "Explore the World of LysLan Chocolates",
+      "categorybtn": {
+        "bonbon": "Chocolate Bonbons",
+        "bar": "Chocolate Tablets",
+        "nuts": "Chocolate Dragées",
+        "nama": "Chocolate Namas"
+      },
+      "product": {
+        "bonbon": {
+          "box6cb1": {
+            "name": "Premium Bonbon Chocolate - Box of 6",
+            "subname": "Vietnamese Essence",
+            "description": "\"A unique set of 6 bonbons, elegantly blending premium chocolate with traditional Vietnamese ingredients.\""
+          },
+          "box6cb2": {
+            "name": "Premium Bonbon Chocolate - Box of 6",
+            "subname": "Taste Adventure",
+            "description": "\"A set of 6 luxury bonbons inspired by global flavors, delivering an exciting tasting experience.\""
+          },
+          "box12": {
+            "name": "Premium Bonbon Chocolate - Box of 12",
+            "subname": "12 Flavor Collection",
+            "description": "\"A meticulously crafted assortment of 12 diverse and exquisite bonbons, perfect for any special occasion.\""
+          },
+          "box24": {
+            "name": "Luxury Gift Box - 24 Premium Bonbons",
+            "subname": "12 Flavor Collection",
+            "description": "\"A luxurious selection of 24 handcrafted bonbons, made from meticulously chosen ingredients for an elevated tasting experience.\""
+          }
+        },
+        "bar": {
+          "bar1": {
+            "name": "White Coconut Chocolate 35%",
+            "subname": "40g Tablet",
+            "description": "\"Sweet LysLan white chocolate elegantly combined with aromatic coconut from Ben Tre, offering a smooth, gently melting sensation.\""
+          },
+          "bar2": {
+            "name": "Milk Chocolate 57%",
+            "subname": "40g Tablet",
+            "description": "\"Smooth LysLan milk chocolate crafted from pure Dak Lak cacao, delivering a rich, mildly sweet, and irresistibly creamy taste.\""
+          },
+          "bar3": {
+            "name": "Salted Dalgona Chocolate",
+            "subname": "40g Tablet",
+            "description": "\"LysLan milk chocolate elegantly blended with crunchy caramel bits and a hint of sea salt from Ba Ria, inspired by Korea’s famous Dalgona candy, creating a perfect balance of sweet and savory flavors.\""
+          },
+          "bar4": {
+            "name": "Brown Rice Chocolate",
+            "subname": "40g Tablet",
+            "description": "\"LysLan milk chocolate creatively combined with crunchy roasted brown rice from the Red River Delta, offering delightful and surprising textures.\""
+          },
+          "bar5": {
+            "name": "Mixed Nuts Chocolate",
+            "subname": "64g Tablet",
+            "description": "\"LysLan milk chocolate perfectly blends smooth sweetness with crunchy almonds and cashews sourced from Binh Phuoc and Lam Dong, creating an irresistibly diverse taste.\""
+          },
+          "bar6": {
+            "name": "Sôcôla Hạt Bí",
+            "subname": "64g Tablet",
+            "description": "\"Rich dark chocolate by LysLan harmoniously paired with crunchy pumpkin seeds from the Mekong Delta, delivering bold and unforgettable flavors.\""
+          }
+        },
+        "nuts": {
+          "dg1": {
+            "name": "Coconut Milk Chocolate Cashews Dragées",
+            "subname": "50g Bag",
+            "description": "\"Crunchy cashews from Binh Phuoc paired with smooth coconut milk chocolate from Ben Tre, offering an exciting flavor experience.\""
+          },
+          "dg2": {
+            "name": "Coconut Milk Chocolate Cashews Dragées",
+            "subname": "150g Bag",
+            "description": "\"Crunchy cashews from Binh Phuoc paired with smooth coconut milk chocolate from Ben Tre, offering an exciting flavor experience.\""
+          },
+          "dg3": {
+            "name": "Coconut Milk Chocolate Almonds Dragées",
+            "subname": "50g Bag",
+            "description": "\"Crunchy almonds combined with silky coconut milk chocolate from Ben Tre, creating a sophisticated and delightful taste.\""
+          },
+          "dg4": {
+            "name": "Coconut Milk Chocolate Almonds Dragées",
+            "subname": "150g Bag",
+            "description": "\"Crunchy almonds combined with silky coconut milk chocolate from Ben Tre, creating a sophisticated and delightful taste.\""
+          },
+          "dg5": {
+            "name": "Egg Coffee Chocolate Almonds Dragées",
+            "subname": "50g Bag",
+            "description": "\"Crunchy almonds coated with egg coffee chocolate inspired by Hanoi’s specialty drink, creating a uniquely flavorful and innovative treat.\""
+          },
+          "dg6": {
+            "name": "Egg Coffee Chocolate Almonds Dragées",
+            "subname": "150g Bag",
+            "description": "\"Crunchy almonds coated with egg coffee chocolate inspired by Hanoi’s specialty drink, creating a uniquely flavorful and innovative treat.\""
+          }
+        },
+        "nama": {
+          "matcha": {
+            "name": "Matcha Nama Chocolate",
+            "subname": "Box of 20",
+            "description": "\"Smooth melting Nama chocolate highlighted by refreshing matcha green tea, offering a harmonious blend of mild bitterness and subtly sweet aftertaste.\""
+          },
+          "pomelo": {
+            "name": "Pomelo Nama Chocolate",
+            "subname": "Box of 20",
+            "description": "\"Soft Nama chocolate delicately infused with fresh pomelo flavor, providing a refreshing and captivating experience.\""
+          },
+          "creambrulee": {
+            "name": "Crème Brûlée Nama Chocolate",
+            "subname": "Box of 20",
+            "description": "\"The famous French Crème Brûlée flavor is beautifully recreated in smooth chocolates, delivering a sweet, creamy, and enticing experience.\""
+          }
+        },
+        "productcarousel": {
+          "bb1": "Fishsauce Caramel",
+          "bb2": "Lemon Honey",
+          "bb3": "Pumpkin Praliné",
+          "bb4": "Tamarind Peanut",
+          "bb5": "Vietnamese Milk Coffee",
+          "bb6": "Coconut Cashew Praliné",
+          "bb7": "Tiramisu",
+          "bb8": "Pineapple Rum Coconut",
+          "bb9": "Strawberry Cheese",
+          "bb10": "Walnut Praliné",
+          "bb11": "Whisky",
+          "bb12": "Mango Passion Fruit"
+        },
+        "button": "Flavours Details"
+      }
+    }
+  },
+  "FAQs": {
+    "breadcrumb": {
+      "home": "Trang chủ",
+      "about": "Các câu hỏi thường gặp"
+    },
+    "banner": {
+      "arialabel": "Các câu hỏi thường gặp",
+      "alt": "Các câu hỏi thường gặp",
+      "title": "Các câu hỏi thường gặp",
+      "h1": "Mỗi thắc mắc là một bước gần hơn với trải nghiệm hoàn hảo.",
+      "p": "Chúng tôi đã chuẩn bị tất cả thông tin bạn cần — từ sản phẩm, giao hàng, đến những gợi ý tận hưởng vị ngon một cách tinh tế."
+    },
+    "shipping": {
+      "button": "Vận chuyển",
+      "h2": "Vận chuyển",
+      "Q1": "Lyslan giao hàng đến những khu vực nào?",
+      "A1": "Hiện tại, Lyslan hỗ trợ giao hàng tại TP.HCM, Thủ Dầu Một, Dĩ An, Thuận An (Bình Dương) và Biên Hòa. Với các khu vực ngoài phạm vi này, có thể áp dụng thêm một khoản phí vận chuyển nhỏ. Chúng tôi đang mở rộng mạng lưới giao hàng để có thể phục vụ bạn ngày càng tốt hơn.",
+      "Q2": "Lyslan có giao hàng quốc tế không?",
+      "A2": "Hiện tại chúng tôi chưa triển khai dịch vụ giao hàng quốc tế tiêu chuẩn. Tuy nhiên, nếu bạn có nhu cầu đặc biệt, vui lòng liên hệ trực tiếp, chúng tôi sẽ trao đổi và cố gắng hỗ trợ trong khả năng có thể.",
+      "Q3": "Phí vận chuyển được tính như thế nào?",
+      "A3": "Phí vận chuyển được tính dựa trên địa chỉ nhận hàng và phương thức vận chuyển mà bạn chọn. Trước khi đơn hàng được xác nhận, bạn sẽ được thông báo rõ ràng mức phí để hoàn toàn yên tâm khi thanh toán.",
+      "Q4": "Thời gian giao hàng mất bao lâu?",
+      "A4": "Tại TP.HCM và Bình Dương, đơn hàng thường được giao trong vòng 48 giờ. Với các khu vực khác như Biên Hòa hoặc tỉnh thành lân cận, thời gian dự kiến từ 3–5 ngày làm việc, tuỳ vào khoảng cách và đơn vị vận chuyển. Lyslan luôn cố gắng để sôcôla đến tay bạn nhanh và trọn vị nhất.",
+      "Q5": "Tôi có thể theo dõi đơn hàng như thế nào?",
+      "A5": "Trước khi giao, đối tác vận chuyển sẽ liên hệ để xác nhận với bạn. Ngoài ra, bạn có thể gọi hotline 097 506 64 06 để kiểm tra trạng thái đơn hàng hoặc nhận hỗ trợ bất kỳ lúc nào trong giờ làm việc."
+    },
+    "order": {
+      "button": "Đặt hàng",
+      "h2": "Đặt hàng",
+      "Q1": "Tôi có thể đặt hàng qua những kênh nào?",
+      "A1": {
+        "p1": "Bạn có thể đặt hàng trực tiếp qua:",
+        "p2": "Website chính thức",
+        "p3": "Fanpage Facebook / Instagram",
+        "p4": "Hotline tư vấn và đặt hàng nhanh",
+        "p5": "Lyslan luôn sẵn sàng hỗ trợ bạn ở bất kỳ kênh nào bạn cảm thấy thuận tiện nhất."
+      },
+      "Q2": "Lyslan hỗ trợ những hình thức thanh toán nào?",
+      "A2": {
+        "p1": "Chúng tôi chấp nhận nhiều hình thức thanh toán linh hoạt:",
+        "p2": "Chuyển khoản ngân hàng",
+        "p3": "Ví điện tử (MoMo, VietQR)",
+        "p4": "Thẻ tín dụng và thẻ ghi nợ nội địa/quốc tế",
+        "p5": "Tất cả đều an toàn và minh bạch, bạn có thể chọn hình thức phù hợp với mình nhất."
+      },
+      "Q3": "Sau khi đặt, tôi có thể thay đổi hoặc huỷ đơn được không?",
+      "A3": "Có thể. Trong trường hợp bạn cần điều chỉnh đơn hàng, vui lòng liên hệ sớm nhất qua hotline trước khi đơn được xử lý. Chúng tôi sẽ cố gắng hỗ trợ điều chỉnh hoặc huỷ đơn theo tình trạng xử lý hiện tại của đơn hàng.",
+      "Q4": "Ngoài website, tôi có thể đặt hàng bằng cách nào?",
+      "A4": "Bạn có thể sô-cô-la của Lyslan qua Shopee. Nếu gặp bất kỳ khó khăn nào trong quá trình đặt hàng, đừng ngần ngại liên hệ trực tiếp với chúng tôi – đội ngũ Lyslan luôn sẵn lòng hỗ trợ bạn nhanh chóng và tận tâm.",
+      "Q5": "Tôi muốn đặt quà tặng doanh nghiệp hoặc đơn hàng lớn với bao bì riêng, cần làm gì?",
+      "A5": "Vui lòng gửi cho chúng tôi thông tin liên hệ và yêu cầu chi tiết, bao gồm số lượng dự kiến, thời gian giao hàng và ý tưởng đóng gói (nếu có). Đội ngũ Lyslan sẽ nhanh chóng liên hệ để tư vấn và đồng hành cùng bạn trong suốt quá trình chuẩn bị quà tặng chuyên nghiệp và chỉn chu.",
+      "Q6": "Tôi muốn mua số lượng lớn để phân phối thì có được không?",
+      "A6": "Được. Nếu bạn quan tâm đến việc phân phối sản phẩm của Lyslan, vui lòng chia sẻ thông tin liên hệ cùng yêu cầu cụ thể. Bộ phận kinh doanh sẽ kết nối với bạn sớm để cùng trao đổi chi tiết.",
+      "Q7": "Nếu tôi nhận hàng lỗi thì phải làm sao?",
+      "A7": "Rất tiếc nếu sản phẩm bạn nhận không đạt kỳ vọng. Vui lòng liên hệ với chúng tôi qua Zalo, Facebook hoặc hotline 097 506 64 06 để báo tình trạng đơn hàng. Chúng tôi cam kết phản hồi và xử lý ngay lập tức, đảm bảo bạn luôn được chăm sóc một cách trọn vẹn và hài lòng.",
+      "Q8": "Tôi có thể yêu cầu xuất hóa đơn đỏ (VAT) không?",
+      "A8": {
+        "p1": "Có. Bạn có thể yêu cầu xuất hóa đơn VAT vào ngày mua hàng:",
+        "p2": "Nếu mua tại cửa hàng: vui lòng thông báo cho nhân viên thu ngân khi thanh toán.",
+        "p3": "Nếu mua online: bạn chỉ cần điền thông tin vào phần “Yêu cầu xuất hóa đơn” khi đặt hàng.",
+        "p4": "Chúng tôi sẽ xử lý thông tin hóa đơn cùng đơn hàng của bạn một cách chính xác và nhanh chóng."
+      }
+    },
+    "product": {
+      "button": "Về sản phẩm",
+      "h2": "Về sản phẩm",
+      "Q1": "Sản phẩm của Lyslan nên bảo quản như thế nào?",
+      "A1": "Để giữ trọn hương vị và chất lượng, bạn nên bảo quản sôcôla ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp. Nhiệt độ lý tưởng là 18–24°C. Trong trường hợp cần thiết, có thể đặt trong ngăn mát tủ lạnh, nhưng nên dùng sớm sau khi lấy ra để sôcôla không bị thay đổi cấu trúc vị.",
+      "Q2": "Lyslan có sản phẩm phù hợp với người ăn chay không?",
+      "A2": "Có. Một số sản phẩm của Lyslan không chứa thành phần từ động vật và có thể phù hợp với người ăn chay. Bạn có thể xem chi tiết thành phần trong từng sản phẩm trên website hoặc liên hệ để được tư vấn rõ hơn.",
+      "Q3": "Tôi có thể xem menu sản phẩm ở đâu?",
+      "A3": "Menu đầy đủ luôn được cập nhật tại website chính thức của Lyslan. Bạn cũng có thể nhắn trực tiếp qua fanpage nếu muốn được tư vấn gợi ý chọn sản phẩm theo nhu cầu (quà tặng, trải nghiệm vị...).",
+      "Q4": "Vì sao sôcôla của tôi có vệt trắng hoặc các đốm mờ?",
+      "A4": {
+        "p1": "Đây là hiện tượng tự nhiên có tên gọi là “bloom” – khá phổ biến, đặc biệt ở các dòng sôcôla nguyên chất hoặc cao cấp.",
+        "p2": "Hiện tượng này xảy ra khi sôcôla gặp biến đổi nhiệt độ đột ngột hoặc được bảo quản trong môi trường không đạt chuẩn về độ ẩm và nhiệt độ.",
+        "p3": "Bạn hoàn toàn có thể yên tâm:",
+        "p4": "Sản phẩm không bị hư hỏng, không ảnh hưởng đến hương vị hay chất lượng bên trong, chỉ thay đổi nhẹ về bề ngoài.",
+        "p5": "Để hạn chế bloom, bạn nên bảo quản sôcôla tại nơi khô thoáng, ở mức nhiệt lý tưởng từ 18–24°C, tránh ánh nắng hoặc để gần nguồn nhiệt."
+      }
+    },
+    "other": {
+      "button": "Câu hỏi khác",
+      "h2": "Câu hỏi khác",
+      "Q1": "Tôi cần thêm hỗ trợ, liên hệ bằng cách nào?",
+      "A1": "Chúng tôi luôn sẵn sàng đồng hành cùng bạn. Hãy gọi hotline: 097 506 64 06 hoặc gửi email về lyslanchocolatier@gmail.com để được hỗ trợ nhanh chóng và tận tình.",
+      "Q2": "Lyslan có chương trình khuyến mãi không?",
+      "A2": "Chúng tôi thường xuyên có các chương trình ưu đãi đặc biệt dành cho khách hàng thân thiết hoặc theo dịp lễ. Bạn có thể theo dõi thông tin cập nhật tại website, fanpage Facebook hoặc Instagram chính thức của Lyslan."
+    }
+  }
+}
