@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState, useMemo } from 'react';
-import ProductCard from './ProductCard';
+import ProductCard from './productcard';
 
 export default function ProductList({ t, category, onShowcaseOpen }) {
     const [isMobile, setIsMobile] = useState(false);
