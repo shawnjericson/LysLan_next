@@ -68,7 +68,7 @@ export default function VideoIntro() {
           className="w-full max-h-[80vh] object-cover"
           aria-label={t('videoaria')}
         >
-          <source src="/Chocolate_intro.mp4" type="video/mp4" />
+          <source src="/chocolateintro.mp4" type="video/mp4" />
           {t('videonote')}
         </video>
 
