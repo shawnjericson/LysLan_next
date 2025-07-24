@@ -54,6 +54,13 @@
       "keywords": "",
       "ogTitle": "Tổng hợp các giải đáp phổ biến cho khách hàng về sản phẩm và dịch vụ.",
       "ogDescription": "Tổng hợp các giải đáp phổ biến cho khách hàng về sản phẩm và dịch vụ."
+    },
+    "gifts": {
+      "title": "Dịch vụ của LysLan chocolatier",
+      "description": "Quà tặng chocolate, Gia công sản phẩm chocolate, Đăng ký đại lý, Đặt hàng doanh nghiệp",
+      "keywords": "Quà tặng, Gia công, Đại lý, Doanh Nghiệp, B2B, Sô-cô-la",
+      "ogTitle": "Các dịch vụ của LysLan chocolatier",
+      "ogDescription": "Quà tặng cá nhân, doanh nghiệp, gia công sản phẩm chocolate và trở thành đại lý của chúng tôi"
     }
   },
   "home": {
@@ -66,39 +73,52 @@
     },
     "holiday": {
       "alt": "Tặng quà Trung Thu, trao yêu thương!",
-      "name": "Tặng quà Trung Thu, trao yêu thương!"
+      "name": "Tặng quà Trung Thu, trao yêu thương!",
+      "description": "Sản phẩm theo mùa"
     },
     "prd_list": {
       "alt": "Danh sách sản phẩm sôcôla",
-      "name": "Chocolate"
+      "name": "Chocolate",
+      "description": "Khám phá bộ sưu tập"
     },
     "contact_list": {
-      "alt": "Hỗ trợ chăm sóc, liên hệ",
-      "name": "Liên Hệ"
+      "alt": "Hỗ Trợ Quà Tặng, Yêu Cầu Gia Công Sản Phẩm, Đăng Ký Đại Lý, Đặt Hàng Doanh Nghiệp",
+      "name": "Quà Tặng",
+      "description": "Dịch vụ quà tặng"
     },
     "about_list": {
       "alt": "Về LysLan",
-      "name": "Câu chuyện LysLan"
+      "name": "Câu chuyện LysLan",
+      "description": "Câu chuyện thương hiệu"
     }
   },
   "submenu": {
     "name": "Chocolate",
+    "subname" : "Khám phá bộ sưu tập đặc biệt",
+    "highlight" : "Nổi bật",
+    "supp" : "Không tìm thấy sản phẩm phù hợp?",
+    "suppdesc" : "Liên hệ với chúng tôi để được tư vấn chi tiết",
+    "contactus": "Tư vấn ngay",
     "submenu_cate": {
       "bonbon": {
         "alt": "Sản phẩm sôcôla bonbon",
-        "name": "Sôcôla Bonbon"
+        "name": "Sôcôla Bonbon",
+        "description": "Sôcôla thủ công cao cấp"
       },
       "tablet": {
         "alt": "Sản phẩm sôcôla thanh",
-        "name": "Sôcôla Thanh"
+        "name": "Sôcôla Thanh",
+        "description": "Thanh sôcôla nguyên chất"
       },
       "dragees": {
         "alt": "Sản phẩm sôcôla phủ hạt",
-        "name": "Sôcôla Phủ Hạt"
+        "name": "Sôcôla Phủ Hạt",
+        "description": "Sôcôla phủ hạt cao cấp"
       },
       "nama": {
         "alt": "Sản phẩm sôcôla nama",
-        "name": "Sôcôla Tươi Nama"
+        "name": "Sôcôla Tươi Nama",
+        "description": "Sôcôla tươi Nhật Bản"
       }
     }
   },
@@ -115,9 +135,9 @@
       "logoalt": "LysLan - Sôcôla Cao Cấp Việt Nam"
     },
     "contact": {
-      "contactaria": "Liên Hệ",
-      "contacttitle": "Liên hệ hỗ trợ, chăm sóc khách hàng",
-      "contactname": "LIÊN HỆ"
+      "contactaria": "QUÀ TẶNG",
+      "contacttitle": "Hỗ Trợ Quà Tặng, Yêu Cầu Gia Công Sản Phẩm, Đăng Ký Đại Lý, Đặt Hàng Doanh Nghiệp",
+      "contactname": "QUÀ TẶNG"
     },
     "story": {
       "storyaria": "CÂU CHUYỆN LYSLAN",
@@ -748,6 +768,214 @@
       "A1": "Chúng tôi luôn sẵn sàng đồng hành cùng bạn. Hãy gọi hotline: 097 506 64 06 hoặc gửi email về lyslanchocolatier@gmail.com để được hỗ trợ nhanh chóng và tận tình.",
       "Q2": "Lyslan có chương trình khuyến mãi không?",
       "A2": "Chúng tôi thường xuyên có các chương trình ưu đãi đặc biệt dành cho khách hàng thân thiết hoặc theo dịp lễ. Bạn có thể theo dõi thông tin cập nhật tại website, fanpage Facebook hoặc Instagram chính thức của Lyslan."
+    }
+  },
+  "service": {
+    "h1": "Khám Phá Bộ Quà Tặng Chocolate Sang Trọng – Sự Lựa Chọn Đẳng Cấp Cho Doanh Nghiệp và Cá Nhân",
+    "breadcrumb": {
+      "home": "Trang chủ",
+      "service": "Dịch vụ LysLan Chocolatier"
+    },
+    "span": "Khám phá thêm",
+    "instruction": "Di chuyển chuột để khám phá các dịch vụ",
+    "S1": {
+      "title": "Quà Tặng Chocolate Cao Cấp",
+      "alt": "Quà Tặng Chocolate Cao Cấp",
+      "description": "Quà tặng chocolate cao cấp, tinh tế cho mọi dịp đặc biệt.",
+      "h2": "Khám phá bộ sưu tập chocolate cao cấp, sự lựa chọn hoàn hảo để thể hiện sự tinh tế và quan tâm trong những dịp đặc biệt. Từng viên chocolate là một món quà ngọt ngào, mang đậm hương vị tuyệt vời.",
+      "h3": "Chúng tôi tự hào mang đến cho bạn những hộp chocolate cao cấp, được chế tác từ nguyên liệu tốt nhất và tinh tế trong từng chi tiết. Mỗi viên chocolate là một tác phẩm nghệ thuật, với hương vị đậm đà, ngọt ngào, hoàn hảo để làm quà tặng trong những dịp đặc biệt. Hãy để món quà này thay lời chúc tốt đẹp và mang đến niềm vui cho người nhận. Chắc chắn, với chất lượng vượt trội và sự sang trọng, quà tặng chocolate của chúng tôi sẽ là lựa chọn tuyệt vời để thể hiện sự tinh tế và quan tâm."
+    },
+    "S2": {
+      "title": "Dịch Vụ Gia Công Sản Phẩm",
+      "alt": "Dịch Vụ Gia Công Sản Phẩm",
+      "description": "Gia công chocolate theo yêu cầu, tạo sản phẩm độc đáo.",
+      "h2": "Chúng tôi cung cấp dịch vụ gia công sản phẩm chất lượng cao, từ thiết kế đến hoàn thiện, mang lại sản phẩm tinh xảo và phù hợp với nhu cầu riêng của bạn.",
+      "h3": "Chúng tôi cung cấp dịch vụ gia công sản phẩm chất lượng cao, đáp ứng nhu cầu đa dạng của khách hàng từ thiết kế đến sản phẩm hoàn thiện. Với đội ngũ kỹ thuật viên chuyên nghiệp và quy trình sản xuất hiện đại, chúng tôi cam kết mang đến những sản phẩm hoàn hảo nhất, từ các mặt hàng quà tặng, đồ gia dụng cho đến các sản phẩm theo yêu cầu riêng. Nếu bạn có ý tưởng hoặc yêu cầu gia công sản phẩm, hãy liên hệ với chúng tôi để nhận được sự tư vấn và hỗ trợ chi tiết. Chúng tôi sẽ biến ý tưởng của bạn thành hiện thực một cách nhanh chóng và chính xác."
+    },
+    "S3": {
+      "title": "Đăng Ký Đại Lý",
+      "alt": "Đăng Ký Đại Lý",
+      "description": "Trở thành đại lý, nhận ngay ưu đãi hấp dẫn.",
+      "h2": "Gia nhập hệ thống đại lý của chúng tôi để nhận những sản phẩm cao cấp và cơ hội kinh doanh hấp dẫn. Cùng nhau phát triển và thành công bền vững.",
+      "h3": "Chúng tôi luôn tìm kiếm các đối tác kinh doanh uy tín để mở rộng mạng lưới phân phối sản phẩm. Nếu bạn đam mê và muốn trở thành đại lý phân phối các sản phẩm chất lượng cao của chúng tôi, hãy đăng ký ngay hôm nay để tham gia vào hệ thống đại lý của chúng tôi. Với chính sách hỗ trợ tốt, sản phẩm chất lượng vượt trội và cơ hội kinh doanh hấp dẫn, chúng tôi cam kết đồng hành cùng bạn trong suốt quá trình phát triển. Đừng bỏ lỡ cơ hội hợp tác lâu dài và mang lại lợi ích chung. Hãy liên hệ với chúng tôi để được hướng dẫn chi tiết về quy trình đăng ký."
+    },
+    "S4": {
+      "title": "Đặt Hàng Doanh Nghiệp",
+      "alt": "Đặt Hàng Doanh Nghiệp",
+      "description": "Đặt quà tặng chocolate cao cấp cho doanh nghiệp và sự kiện.",
+      "h2": "Đặt hàng doanh nghiệp với chính sách ưu đãi và giao hàng nhanh chóng. Chúng tôi cung cấp giải pháp linh hoạt cho các đơn hàng số lượng lớn và yêu cầu riêng biệt.",
+      "h3": "Chúng tôi cung cấp dịch vụ đặt hàng doanh nghiệp với những sản phẩm chất lượng cao và dịch vụ linh hoạt, đáp ứng nhu cầu đặc biệt của các tổ chức, công ty. Dù là đơn hàng số lượng lớn hay các yêu cầu riêng biệt, chúng tôi luôn cam kết cung cấp giải pháp tối ưu và hiệu quả nhất. Hãy liên hệ với chúng tôi để nhận tư vấn và báo giá chi tiết. Với chính sách ưu đãi đặc biệt và quy trình giao hàng nhanh chóng, chúng tôi sẽ đồng hành cùng doanh nghiệp của bạn trong mọi dự án và sự kiện quan trọng."
+    },
+    "giftTypes": {
+      "title1": "Quà Tặng Sinh Nhật",
+      "description1": "Tuyệt phẩm chocolate thượng hạng, được thiết kế riêng cho ngày sinh nhật – mang đến cảm xúc bất ngờ và niềm hân hoan trọn vẹn.",
+      "title2": "Quà Tặng Cặp Đôi",
+      "description2": "Bộ sưu tập chocolate lãng mạn, khơi gợi yêu thương và lưu giữ những khoảnh khắc ngọt ngào dành riêng cho hai trái tim đồng điệu.",
+      "title3": "Quà Tặng Doanh Nghiệp",
+      "description3": "Set chocolate cao cấp, được đóng gói chỉn chu và đẳng cấp – là lựa chọn lý tưởng để tri ân khách hàng, đối tác và cộng sự thân thiết.",
+      "title4": "Quà Tặng Lễ Kỷ Niệm",
+      "description4": "Từng viên chocolate được chế tác tỉ mỉ như một dấu ấn lưu niệm, gửi gắm trọn vẹn sự tinh tế và ý nghĩa trong những cột mốc đáng nhớ.",
+      "title5": "Quà Tặng Gia Đình",
+      "description5": "Bộ quà tặng chocolate thượng hạng dành cho gia đình – nơi cảm xúc sum vầy lan tỏa qua từng hương vị ngọt ngào.",
+      "title6": "Quà Tặng Cá Nhân Hóa",
+      "description6": "Chocolate được chế tác theo yêu cầu riêng biệt – độc bản, tinh tế, và thể hiện rõ dấu ấn cá nhân của người trao tặng."
+    },
+    "testimonials": {
+      "name1": "Chị Minh Thư",
+      "role1": "Khách hàng thân thiết",
+      "content1": "Chocolate của thương hiệu thực sự đẳng cấp – từ hương vị đến cách đóng gói đều toát lên sự chỉn chu. Tôi đã tặng chồng nhân dịp kỷ niệm, và anh ấy vô cùng xúc động.",
+      "name2": "Anh Hoàng Nam",
+      "role2": "Giám đốc doanh nghiệp",
+      "content2": "Chúng tôi lựa chọn chocolate làm quà tặng khách hàng VIP. Chất lượng vượt mong đợi, hình thức sang trọng – khiến ai nhận cũng hài lòng và ấn tượng.",
+      "name3": "Cô Lan Anh",
+      "role3": "Mẹ của hai bé",
+      "content3": "Món quà sinh nhật là hộp chocolate tuyệt đẹp. Cả nhà tôi đều yêu thích – không chỉ ngon mà còn rất trang trọng và ý nghĩa."
+    },
+    "herosection": {
+      "h2": "Món Quà Ngọt Ngào",
+      "span1": "Tinh Tế & Sang Trọng",
+      "p1": "Trao yêu thương đến những người bạn trân quý",
+      "p2": "Chocolate thượng hạng được chế tác từ những hạt cacao tuyển chọn tốt nhất Việt Nam, kết hợp cùng bàn tay nghệ nhân – mang đến trải nghiệm vị giác đẳng cấp.",
+      "span2": "Chocolate cao cấp Việt Nam",
+      "span3": "Đóng gói tinh xảo",
+      "span4": "Giao hàng toàn quốc",
+      "button": "KHÁM PHÁ BỘ SƯU TẬP",
+      "alt": "Hộp quà chocolate sang trọng, cao cấp"
+    },
+    "giftsection": {
+      "h2": "Bộ Sưu Tập Quà Tặng Chocolate Cao Cấp",
+      "p": "Khám phá những dòng sản phẩm chocolate được thiết kế riêng cho từng dịp đặc biệt – từ những khoảnh khắc riêng tư đến sự kiện trang trọng.",
+      "button": "XEM CHI TIẾT"
+    },
+    "meaningsection": {
+      "h2": "Ý Nghĩa Của Một Hộp Chocolate Được Chọn Lọc",
+      "p": "Không chỉ là món quà ngọt ngào, chocolate còn là biểu tượng của tình yêu, sự trân trọng và những ký ức không thể nào quên.",
+      "h31": "Biểu Tượng Của Yêu Thương",
+      "p1": "Từ lâu, chocolate đã là đại diện cho sự lãng mạn và gắn bó – mỗi viên như một thông điệp ngọt ngào gửi trao cảm xúc chân thành.",
+      "h32": "Món Quà Vượt Thời Gian",
+      "p2": "Dù là sinh nhật, kỷ niệm hay những dịp trọng đại, chocolate luôn là lựa chọn kinh điển và tinh tế, phù hợp với mọi đối tượng.",
+      "h33": "Tạo Dấu Ấn Khó Phai",
+      "p3": "Mỗi lần thưởng thức là một lần gợi lại khoảnh khắc đáng nhớ – món quà khiến người nhận luôn cảm thấy được trân quý.",
+      "alt1": "Cặp đôi cùng thưởng thức chocolate",
+      "alt2": "Tặng hộp chocolate cao cấp",
+      "alt3": "Hộp quà chocolate được đóng gói tinh xảo",
+      "alt4": "Gia đình sum vầy bên hộp chocolate"
+    },
+    "testimonialssection": {
+      "h2": "Cảm Nhận Từ Khách Hàng Thân Thiết",
+      "p": "Những lời chia sẻ chân thành từ những người đã lựa chọn chocolate của LysLan để trao gửi cảm xúc trong những dịp đáng nhớ."
+    },
+    "ctasection": {
+      "h2": "Đặt Hàng Hôm Nay – Gửi Trao Tinh Tế",
+      "p": "Mang đến khoảnh khắc khó quên với hộp chocolate thượng hạng. Liên hệ để được tư vấn cá nhân hóa và lựa chọn món quà phù hợp nhất.",
+      "btn1": "GỌI NGAY: 097.506.64.06",
+      "btn2": "KHÁM PHÁ CATALOG"
+    },
+    "section2": {
+      "hero": {
+        "label": "Dịch vụ Gia công Cao cấp",
+        "headline": "Mang Bản Sắc Riêng Của Bạn",
+        "headlineHighlight": "Vào Từng Viên Socola",
+        "intro1": "Tại ",
+        "intro2": "LysLan",
+        "intro3": ", chúng tôi không chỉ tạo nên chocolate.",
+        "subtext1": "Chúng tôi ",
+        "subtext2": "biến chocolate thành chất liệu để kể câu chuyện của chính bạn",
+        "subtext3": " – một cách đẳng cấp, nghệ thuật và khác biệt.",
+        "buttonConsult": "Tư Vấn Ngay",
+        "buttonSamples": "Xem Sản Phẩm Mẫu",
+        "badge": "100% CACAO VIỆT NAM",
+        "footerNote1": "Với nguồn ",
+        "footerNote2": "cacao Việt Nam 100% nguyên chất",
+        "footerNote3": " từ Đắk Lắk, cùng kỹ nghệ chế tác thủ công tinh tế, LysLan cung cấp dịch vụ gia công chocolate cao cấp cho các thương hiệu muốn sở hữu dòng sản phẩm mang dấu ấn riêng biệt.",
+        "images": {
+          "bonbon": "Chocolate bonbon thủ công cao cấp",
+          "tablet": "Thanh chocolate thiết kế tinh xảo",
+          "dragees": "Dragees bọc hạt với hương vị sáng tạo",
+          "nama": "Nama chocolate mềm tan cao cấp"
+        }
+      },
+      "process": {
+        "headline": "Từ Ý Tưởng Tới Hiện Thực",
+        "subheadline": "Một Quy Trình Mang Tầm Nghệ Thuật",
+        "title1": "Khởi tạo cảm hứng",
+        "description1": "Bạn có một ý tưởng độc đáo? Chúng tôi bắt đầu từ đó – cùng bạn định hình hương vị, thông điệp và trải nghiệm bạn muốn gửi gắm qua từng viên chocolate.",
+        "imageAlt1": "Ý tưởng sáng tạo đầu tiên trong quá trình tạo ra chocolate thương hiệu",
+        "title2": "Phát triển công thức riêng biệt",
+        "description2": "Với đội ngũ R&D giàu kinh nghiệm, LysLan giúp bạn tạo nên những phiên bản chocolate độc bản dựa trên 4 dòng chủ lực.",
+        "imageAlt2": "Quy trình nghiên cứu và phát triển công thức chocolate cá nhân hóa",
+        "title3": "Thiết kế bao bì nhận diện thương hiệu",
+        "description3": "In ấn logo, phối màu theo bộ nhận diện, khắc laser tinh xảo – từng hộp chocolate LysLan đều có thể mang đậm dấu ấn thương hiệu bạn.",
+        "imageAlt3": "Thiết kế bao bì chocolate sang trọng phù hợp nhận diện thương hiệu",
+        "title4": "Sản xuất – kiểm định – hoàn thiện",
+        "description4": "Toàn bộ quy trình sản xuất đều đạt chuẩn an toàn thực phẩm, từ chọn hạt đến đóng gói – cam kết bảo mật công thức và sự độc quyền tuyệt đối.",
+        "imageAlt4": "Dây chuyền sản xuất và kiểm định chất lượng chocolate cao cấp"
+      },
+      "productLines": {
+        "headline": "4 Dòng Sản Phẩm Chủ Lực",
+        "subheadline": "Mỗi dòng sản phẩm là một câu chuyện riêng, được chế tác với tâm huyết và sự tỉ mỉ của những nghệ nhân chocolate LysLan",
+        "name1": "Bonbon Sô-cô-la",
+        "description1": "Lớp vỏ giòn thanh mảnh, nhân mềm ngọt ngào, đầy bất ngờ",
+        "features1": "Thiết kế tinh xảo",
+        "features2": "Nhân đa dạng",
+        "features3": "Vỏ chocolate mỏng",
+        "name2": "Thanh Sô-cô-la",
+        "description2": "Tinh tế, tối giản, dễ ăn và dễ mang theo",
+        "features4": "Đa dạng hàm lượng cacao",
+        "features5": "Khắc laser logo",
+        "features6": "Bao bì sang trọng",
+        "name3": "Dragées Sô-cô-la",
+        "description3": "Chocolate bọc hạt cao cấp (hạnh nhân, hạt điều, macca…)",
+        "features7": "Hạt nhập khẩu",
+        "features8": "Lớp phủ hoàn hảo",
+        "features9": "Giữ độ giòn lâu",
+        "name4": "Nama Sô-cô-la",
+        "description4": "Mềm tan, thanh thuần, đậm đà vị cacao nguyên bản",
+        "features10": "Tan chảy trong miệng",
+        "features11": "Không chất bảo quản",
+        "features12": "Hương vị tinh khiết",
+        "quantity1": "Số lượng linh hoạt từ ",
+        "quantity2": "50 – 10.000 sản phẩm",
+        "quantity3": ", tùy theo nhu cầu của bạn",
+        "catalogButton": "Xem catalog sản phẩm →"
+      },
+      "clientTypes": {
+        "headline": "Chúng Tôi Nhận Gia Công Cho",
+        "title1": "Thương hiệu quà tặng cao cấp",
+        "description1": "Tạo dòng sản phẩm chocolate độc quyền cho thương hiệu của bạn",
+        "title2": "Doanh nghiệp",
+        "description2": "Quà tri ân khách hàng, đối tác với dấu ấn riêng biệt",
+        "title3": "Sự kiện & Resort",
+        "description3": "Tổ chức sự kiện, hội nghị, showroom với chocolate thương hiệu",
+        "title4": "Cá nhân",
+        "description4": "Ra mắt dòng sản phẩm chocolate mang tên riêng của bạn",
+        "label": "SỐ LƯỢNG LINH HOẠT",
+        "range": "50 – 10.000 sản phẩm"
+      },
+      "whyChooseUs": {
+        "headline": "Vì Sao Chọn LysLan?",
+        "title1": "100% cacao Việt Nam nguyên chất",
+        "description1": "Không pha trộn, không nhập khẩu - Chỉ sử dụng cacao từ Đắk Lắk",
+        "title2": "Gia công thủ công",
+        "description2": "Mỗi viên chocolate là một tác phẩm có linh hồn, được chế tác tỉ mỉ",
+        "title3": "Tư duy nghệ thuật + tư duy thương hiệu",
+        "description3": "Chúng tôi hiểu cả sản phẩm lẫn định vị bạn đang xây dựng",
+        "title4": "Cam kết bảo mật & độc quyền sản phẩm",
+        "description4": "Công thức và thiết kế của bạn được bảo vệ tuyệt đối",
+        "title": "Cacao Việt Nam",
+        "description": "Cam kết chất lượng và nguồn gốc rõ ràng trong từng sản phẩm"
+      },
+      "cta": {
+        "headline": "Hãy Để Chocolate",
+        "headlineHighlight": "Thay Lời Muốn Nói Của Thương Hiệu Bạn",
+        "description1": "Bạn đang tìm một dòng sản phẩm độc quyền để nâng tầm thương hiệu?",
+        "description2": "LysLan sẵn sàng đồng hành",
+        "description3": "từ cảm hứng ban đầu đến những hộp chocolate cuối cùng chạm tay người nhận.",
+        "buttonConsult": "Nhận Tư Vấn Ngay",
+        "buttonSample": "Nhận Mẫu Thử",
+        "label": "Liên hệ với chúng tôi",
+        "tagline": "Chocolate Thủ Công • 100% Cacao Việt Nam • Nghệ Thuật & Đẳng Cấp"
+      }
     }
   }
 }

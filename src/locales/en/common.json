@@ -54,6 +54,13 @@
       "keywords": "",
       "ogTitle": "FREQUENTLY ASKED QUESTIONS",
       "ogDescription": "Collection of common customer answers to questions about products and services."
+    },
+    "gifts": {
+      "title": "Services by LysLan Chocolatier",
+      "description": "Chocolate Gifts, Product Customization, Become a Reseller, Corporate Orders",
+      "keywords": "Gifts, Customization, Reseller, Business, B2B, Chocolate",
+      "ogTitle": "LysLan Chocolatier's Premium Services",
+      "ogDescription": "Personal and corporate chocolate gifts, custom product service, and join us as an official reseller"
     }
   },
   "home": {
@@ -66,39 +73,52 @@
     },
     "holiday": {
       "alt": "Mid-Autumn Gifting – Share Love with Chocolate!",
-      "name": "MID-AUTUMN GIFTING – SHARE LOVE, GIVE CHOCOLATE!"
+      "name": "MID-AUTUMN GIFTING – SHARE LOVE, GIVE CHOCOLATE!",
+      "description": "Seasonal Collection"
     },
     "prd_list": {
       "alt": "Our Chocolate Collection",
-      "name": "CHOCOLATE"
+      "name": "CHOCOLATE",
+      "description": "Explore the Collection"
     },
     "contact_list": {
       "alt": "Customer Care & Support",
-      "name": "CONTACT"
+      "name": "CONTACT",
+      "description": "Gifting Service"
     },
     "about_list": {
       "alt": "About LysLan",
-      "name": "THE LYSLAN STORY"
+      "name": "THE LYSLAN STORY",
+      "description": "Our Story"
     }
   },
   "submenu": {
     "name": "CHOCOLATE",
+    "subname" : "Explore the Special Collection",
+    "highlight" : "Highlights",
+    "supp" : "Can’t find what you’re looking for?",
+    "suppdesc" : "Contact us for personalized recommendations",
+    "contactus": "Get a consultation",
     "submenu_cate": {
       "bonbon": {
         "alt": "Bonbon Chocolates",
-        "name": "Chocolate Bonbons"
+        "name": "Chocolate Bonbons",
+        "description": "Premium Handcrafted Chocolate"
       },
       "tablet": {
         "alt": "Chocolate Bars",
-        "name": "Chocolate Tablets"
+        "name": "Chocolate Tablets",
+        "description": "Pure Chocolate Tablets with Filling"
       },
       "dragees": {
         "alt": "Chocolate-Covered Nuts",
-        "name": "Chocolate Dragées"
+        "name": "Chocolate Dragées",
+        "description": "Gourmet Chocolate-Coated Nuts"
       },
       "nama": {
         "alt": "Nama Chocolates",
-        "name": "Chocolate Namas"
+        "name": "Chocolate Namas",
+        "description": "Japanese Nama Chocolate"
       }
     }
   },
@@ -344,6 +364,11 @@
     "copyright": "© 2025 LysLan Chocolatier | Made with ❤️ in Vietnam"
   },
   "Aboutus": {
+    "h1": "LysLan – Our Story: A Journey to Infuse Vietnamese Essence into Fine Chocolate",
+    "breadcrumb": {
+      "home": "Home",
+      "about": "The LysLan Story"
+    },
     "herobanner": {
       "sectionaria": "We don't just make chocolate – we tell Vietnam’s stories through every piece.",
       "imgalt": "Bringing Vietnamese Chocolate to the World",
@@ -657,92 +682,300 @@
   },
   "FAQs": {
     "breadcrumb": {
-      "home": "Trang chủ",
-      "about": "Các câu hỏi thường gặp"
+      "home": "Home",
+      "about": "Frequently Asked Questions"
     },
     "banner": {
-      "arialabel": "Các câu hỏi thường gặp",
-      "alt": "Các câu hỏi thường gặp",
-      "title": "Các câu hỏi thường gặp",
-      "h1": "Mỗi thắc mắc là một bước gần hơn với trải nghiệm hoàn hảo.",
-      "p": "Chúng tôi đã chuẩn bị tất cả thông tin bạn cần — từ sản phẩm, giao hàng, đến những gợi ý tận hưởng vị ngon một cách tinh tế."
+      "arialabel": "Frequently Asked Questions",
+      "alt": "Frequently Asked Questions",
+      "title": "Frequently Asked Questions",
+      "h1": "Every question brings you closer to a perfect experience.",
+      "p": "We have prepared all the information you need—from products, delivery, to tips for enjoying flavors with finesse."
     },
     "shipping": {
-      "button": "Vận chuyển",
-      "h2": "Vận chuyển",
-      "Q1": "Lyslan giao hàng đến những khu vực nào?",
-      "A1": "Hiện tại, Lyslan hỗ trợ giao hàng tại TP.HCM, Thủ Dầu Một, Dĩ An, Thuận An (Bình Dương) và Biên Hòa. Với các khu vực ngoài phạm vi này, có thể áp dụng thêm một khoản phí vận chuyển nhỏ. Chúng tôi đang mở rộng mạng lưới giao hàng để có thể phục vụ bạn ngày càng tốt hơn.",
-      "Q2": "Lyslan có giao hàng quốc tế không?",
-      "A2": "Hiện tại chúng tôi chưa triển khai dịch vụ giao hàng quốc tế tiêu chuẩn. Tuy nhiên, nếu bạn có nhu cầu đặc biệt, vui lòng liên hệ trực tiếp, chúng tôi sẽ trao đổi và cố gắng hỗ trợ trong khả năng có thể.",
-      "Q3": "Phí vận chuyển được tính như thế nào?",
-      "A3": "Phí vận chuyển được tính dựa trên địa chỉ nhận hàng và phương thức vận chuyển mà bạn chọn. Trước khi đơn hàng được xác nhận, bạn sẽ được thông báo rõ ràng mức phí để hoàn toàn yên tâm khi thanh toán.",
-      "Q4": "Thời gian giao hàng mất bao lâu?",
-      "A4": "Tại TP.HCM và Bình Dương, đơn hàng thường được giao trong vòng 48 giờ. Với các khu vực khác như Biên Hòa hoặc tỉnh thành lân cận, thời gian dự kiến từ 3–5 ngày làm việc, tuỳ vào khoảng cách và đơn vị vận chuyển. Lyslan luôn cố gắng để sôcôla đến tay bạn nhanh và trọn vị nhất.",
-      "Q5": "Tôi có thể theo dõi đơn hàng như thế nào?",
-      "A5": "Trước khi giao, đối tác vận chuyển sẽ liên hệ để xác nhận với bạn. Ngoài ra, bạn có thể gọi hotline 097 506 64 06 để kiểm tra trạng thái đơn hàng hoặc nhận hỗ trợ bất kỳ lúc nào trong giờ làm việc."
+      "button": "Shipping",
+      "h2": "Shipping",
+      "Q1": "Where does Lyslan deliver?",
+      "A1": "Currently, Lyslan delivers to Ho Chi Minh City, Thu Dau Mot, Di An, Thuan An (Binh Duong), and Bien Hoa. For areas outside this range, an additional shipping fee may apply. We are expanding our delivery network to better serve you.",
+      "Q2": "Does Lyslan offer international shipping?",
+      "A2": "We currently do not offer standard international shipping. However, if you have special needs, please contact us directly, and we will discuss and try to assist within our capabilities.",
+      "Q3": "How is the shipping fee calculated?",
+      "A3": "The shipping fee is based on the delivery address and the shipping method you choose. Before your order is confirmed, you will be clearly notified of the shipping cost to ensure peace of mind when making payment.",
+      "Q4": "How long does delivery take?",
+      "A4": "In Ho Chi Minh City and Binh Duong, orders are usually delivered within 48 hours. For other areas like Bien Hoa or neighboring provinces, the expected delivery time is 3–5 working days, depending on the distance and the delivery service. Lyslan always strives to deliver chocolate quickly and with its full flavor.",
+      "Q5": "How can I track my order?",
+      "A5": "Before shipping, the delivery partner will contact you for confirmation. Additionally, you can call our hotline at 097 506 64 06 to check the order status or receive support at any time during business hours."
     },
     "order": {
-      "button": "Đặt hàng",
-      "h2": "Đặt hàng",
-      "Q1": "Tôi có thể đặt hàng qua những kênh nào?",
+      "button": "Order",
+      "h2": "Order",
+      "Q1": "What channels can I use to place an order?",
       "A1": {
-        "p1": "Bạn có thể đặt hàng trực tiếp qua:",
-        "p2": "Website chính thức",
-        "p3": "Fanpage Facebook / Instagram",
-        "p4": "Hotline tư vấn và đặt hàng nhanh",
-        "p5": "Lyslan luôn sẵn sàng hỗ trợ bạn ở bất kỳ kênh nào bạn cảm thấy thuận tiện nhất."
+        "p1": "You can place an order directly through:",
+        "p2": "Official website",
+        "p3": "Facebook / Instagram fanpage",
+        "p4": "Hotline for fast orders and consultations",
+        "p5": "Lyslan is always ready to assist you on whichever channel is most convenient for you."
       },
-      "Q2": "Lyslan hỗ trợ những hình thức thanh toán nào?",
+      "Q2": "What payment methods does Lyslan support?",
       "A2": {
-        "p1": "Chúng tôi chấp nhận nhiều hình thức thanh toán linh hoạt:",
-        "p2": "Chuyển khoản ngân hàng",
-        "p3": "Ví điện tử (MoMo, VietQR)",
-        "p4": "Thẻ tín dụng và thẻ ghi nợ nội địa/quốc tế",
-        "p5": "Tất cả đều an toàn và minh bạch, bạn có thể chọn hình thức phù hợp với mình nhất."
+        "p1": "We accept various flexible payment methods:",
+        "p2": "Bank transfer",
+        "p3": "E-wallets (MoMo, VietQR)",
+        "p4": "Credit and debit cards (domestic/international)",
+        "p5": "All are safe and transparent, and you can choose the method that best suits you."
       },
-      "Q3": "Sau khi đặt, tôi có thể thay đổi hoặc huỷ đơn được không?",
-      "A3": "Có thể. Trong trường hợp bạn cần điều chỉnh đơn hàng, vui lòng liên hệ sớm nhất qua hotline trước khi đơn được xử lý. Chúng tôi sẽ cố gắng hỗ trợ điều chỉnh hoặc huỷ đơn theo tình trạng xử lý hiện tại của đơn hàng.",
-      "Q4": "Ngoài website, tôi có thể đặt hàng bằng cách nào?",
-      "A4": "Bạn có thể sô-cô-la của Lyslan qua Shopee. Nếu gặp bất kỳ khó khăn nào trong quá trình đặt hàng, đừng ngần ngại liên hệ trực tiếp với chúng tôi – đội ngũ Lyslan luôn sẵn lòng hỗ trợ bạn nhanh chóng và tận tâm.",
-      "Q5": "Tôi muốn đặt quà tặng doanh nghiệp hoặc đơn hàng lớn với bao bì riêng, cần làm gì?",
-      "A5": "Vui lòng gửi cho chúng tôi thông tin liên hệ và yêu cầu chi tiết, bao gồm số lượng dự kiến, thời gian giao hàng và ý tưởng đóng gói (nếu có). Đội ngũ Lyslan sẽ nhanh chóng liên hệ để tư vấn và đồng hành cùng bạn trong suốt quá trình chuẩn bị quà tặng chuyên nghiệp và chỉn chu.",
-      "Q6": "Tôi muốn mua số lượng lớn để phân phối thì có được không?",
-      "A6": "Được. Nếu bạn quan tâm đến việc phân phối sản phẩm của Lyslan, vui lòng chia sẻ thông tin liên hệ cùng yêu cầu cụ thể. Bộ phận kinh doanh sẽ kết nối với bạn sớm để cùng trao đổi chi tiết.",
-      "Q7": "Nếu tôi nhận hàng lỗi thì phải làm sao?",
-      "A7": "Rất tiếc nếu sản phẩm bạn nhận không đạt kỳ vọng. Vui lòng liên hệ với chúng tôi qua Zalo, Facebook hoặc hotline 097 506 64 06 để báo tình trạng đơn hàng. Chúng tôi cam kết phản hồi và xử lý ngay lập tức, đảm bảo bạn luôn được chăm sóc một cách trọn vẹn và hài lòng.",
-      "Q8": "Tôi có thể yêu cầu xuất hóa đơn đỏ (VAT) không?",
-      "A8": {
-        "p1": "Có. Bạn có thể yêu cầu xuất hóa đơn VAT vào ngày mua hàng:",
-        "p2": "Nếu mua tại cửa hàng: vui lòng thông báo cho nhân viên thu ngân khi thanh toán.",
-        "p3": "Nếu mua online: bạn chỉ cần điền thông tin vào phần “Yêu cầu xuất hóa đơn” khi đặt hàng.",
-        "p4": "Chúng tôi sẽ xử lý thông tin hóa đơn cùng đơn hàng của bạn một cách chính xác và nhanh chóng."
-      }
+      "Q3": "Can I change or cancel my order after placing it?",
+      "A3": "Yes. If you need to adjust your order, please contact us as soon as possible via the hotline before the order is processed. We will try to assist with adjustments or cancellations based on the current status of the order."
+    },
+    "Q4": "How else can I place an order besides the website?",
+    "A4": "You can order Lyslan's chocolate via Shopee. If you encounter any issues while placing an order, don’t hesitate to contact us directly – the Lyslan team is always ready to assist you quickly and professionally.",
+    "Q5": "How can I place a corporate gift order or a large order with custom packaging?",
+    "A5": "Please send us your contact details and specific requirements, including the expected quantity, delivery time, and packaging ideas (if any). Lyslan's team will quickly reach out to advise and assist you throughout the preparation of professional and thoughtful corporate gifts.",
+    "Q6": "Can I order in bulk for distribution?",
+    "A6": "Yes. If you are interested in distributing Lyslan products, please share your contact information and specific requirements. The business department will get in touch with you soon to discuss details.",
+    "Q7": "What if I receive a faulty product?",
+    "A7": "We are sorry if the product you received does not meet expectations. Please contact us via Zalo, Facebook, or hotline 097 506 64 06 to report the order status. We guarantee to respond and resolve the issue immediately, ensuring that you are always fully cared for and satisfied.",
+    "Q8": "Can I request a VAT invoice?",
+    "A8": {
+      "p1": "Yes. You can request a VAT invoice on the day of purchase:",
+      "p2": "If buying in-store: please inform the cashier when making payment.",
+      "p3": "If buying online: just fill in the information in the 'Request Invoice' section when placing your order.",
+      "p4": "We will process the invoice details along with your order accurately and quickly."
     },
     "product": {
-      "button": "Về sản phẩm",
-      "h2": "Về sản phẩm",
-      "Q1": "Sản phẩm của Lyslan nên bảo quản như thế nào?",
-      "A1": "Để giữ trọn hương vị và chất lượng, bạn nên bảo quản sôcôla ở nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp. Nhiệt độ lý tưởng là 18–24°C. Trong trường hợp cần thiết, có thể đặt trong ngăn mát tủ lạnh, nhưng nên dùng sớm sau khi lấy ra để sôcôla không bị thay đổi cấu trúc vị.",
-      "Q2": "Lyslan có sản phẩm phù hợp với người ăn chay không?",
-      "A2": "Có. Một số sản phẩm của Lyslan không chứa thành phần từ động vật và có thể phù hợp với người ăn chay. Bạn có thể xem chi tiết thành phần trong từng sản phẩm trên website hoặc liên hệ để được tư vấn rõ hơn.",
-      "Q3": "Tôi có thể xem menu sản phẩm ở đâu?",
-      "A3": "Menu đầy đủ luôn được cập nhật tại website chính thức của Lyslan. Bạn cũng có thể nhắn trực tiếp qua fanpage nếu muốn được tư vấn gợi ý chọn sản phẩm theo nhu cầu (quà tặng, trải nghiệm vị...).",
-      "Q4": "Vì sao sôcôla của tôi có vệt trắng hoặc các đốm mờ?",
+      "button": "Product Info",
+      "h2": "Product Info",
+      "Q1": "How should I store Lyslan products?",
+      "A1": "To maintain the flavor and quality, you should store chocolate in a dry, cool place, away from direct sunlight. The ideal temperature is 18–24°C. If necessary, you can place it in the fridge, but it should be consumed soon after removal to avoid changing the texture and flavor.",
+      "Q2": "Does Lyslan offer products suitable for vegetarians?",
+      "A2": "Yes. Some of Lyslan's products do not contain animal-derived ingredients and are suitable for vegetarians. You can check the ingredients in each product on our website or contact us for more details.",
+      "Q3": "Where can I view the product menu?",
+      "A3": "The full menu is always updated on Lyslan's official website. You can also send a message via our fanpage if you want advice on product selection (gifts, flavor experiences, etc.).",
+      "Q4": "Why does my chocolate have white streaks or spots?",
       "A4": {
-        "p1": "Đây là hiện tượng tự nhiên có tên gọi là “bloom” – khá phổ biến, đặc biệt ở các dòng sôcôla nguyên chất hoặc cao cấp.",
-        "p2": "Hiện tượng này xảy ra khi sôcôla gặp biến đổi nhiệt độ đột ngột hoặc được bảo quản trong môi trường không đạt chuẩn về độ ẩm và nhiệt độ.",
-        "p3": "Bạn hoàn toàn có thể yên tâm:",
-        "p4": "Sản phẩm không bị hư hỏng, không ảnh hưởng đến hương vị hay chất lượng bên trong, chỉ thay đổi nhẹ về bề ngoài.",
-        "p5": "Để hạn chế bloom, bạn nên bảo quản sôcôla tại nơi khô thoáng, ở mức nhiệt lý tưởng từ 18–24°C, tránh ánh nắng hoặc để gần nguồn nhiệt."
+        "p1": "This is a natural phenomenon called 'bloom'—common, especially with high-quality or pure chocolate.",
+        "p2": "It occurs when the chocolate undergoes sudden temperature changes or is stored in unsuitable humidity and temperature conditions.",
+        "p3": "You can rest assured:",
+        "p4": "The product is not spoiled and the flavor or internal quality is not affected, only the external appearance changes slightly.",
+        "p5": "To minimize bloom, store chocolate in a dry, cool place with an ideal temperature of 18–24°C, away from sunlight or heat sources."
       }
     },
     "other": {
-      "button": "Câu hỏi khác",
-      "h2": "Câu hỏi khác",
-      "Q1": "Tôi cần thêm hỗ trợ, liên hệ bằng cách nào?",
-      "A1": "Chúng tôi luôn sẵn sàng đồng hành cùng bạn. Hãy gọi hotline: 097 506 64 06 hoặc gửi email về lyslanchocolatier@gmail.com để được hỗ trợ nhanh chóng và tận tình.",
-      "Q2": "Lyslan có chương trình khuyến mãi không?",
-      "A2": "Chúng tôi thường xuyên có các chương trình ưu đãi đặc biệt dành cho khách hàng thân thiết hoặc theo dịp lễ. Bạn có thể theo dõi thông tin cập nhật tại website, fanpage Facebook hoặc Instagram chính thức của Lyslan."
+      "button": "Other Questions",
+      "h2": "Other Questions",
+      "Q1": "How can I contact you for further support?",
+      "A1": "We are always ready to assist you. Call our hotline at 097 506 64 06 or email lyslanchocolatier@gmail.com for quick and dedicated support.",
+      "Q2": "Does Lyslan offer promotions?",
+      "A2": "We frequently have special promotions for loyal customers or during holidays. You can follow updates on our website, or on Lyslan's official Facebook or Instagram pages."
+    }
+  },
+  "service": {
+    "h1": "Elevate Every Moment with Premium Chocolate Gifts – Crafted for Businesses and Loved Ones Alike",
+    "breadcrumb": {
+      "home": "Home",
+      "service": "Our Signature Services"
+    },
+    "span": "Explore our services",
+    "instruction": "Hover to discover more",
+    "S1": {
+      "title": "Luxury Chocolate Gifts",
+      "alt": "Luxury Chocolate Gifts",
+      "description": "Timeless gifts that leave a lasting impression.",
+      "h2": "Make every celebration unforgettable with our luxurious chocolate gifts — where elegance meets irresistible flavor.",
+      "h3": "Our signature gift boxes are more than chocolate — they’re a gesture of care, class, and excellence. Handcrafted with the finest ingredients and styled with sophistication, each piece delights both the eyes and the palate. Whether it's a client appreciation, holiday moment, or heartfelt surprise, our chocolate is your perfect messenger. Give the gift that speaks volumes."
+    },
+    "S2": {
+      "title": "Private Label & Customization",
+      "alt": "Private Label & Customization",
+      "description": "Transform your vision into a luxurious product.",
+      "h2": "Looking to create your own premium chocolate line? Let us bring your ideas to life with full-service customization.",
+      "h3": "From bespoke packaging to custom recipes, we provide a seamless manufacturing experience tailored to your brand or project. Whether you’re launching a seasonal gift, a limited edition, or a corporate collaboration — our team ensures every detail reflects luxury. Turn your chocolate vision into reality with precision, style, and speed."
+    },
+    "S3": {
+      "title": "Become Our Reseller",
+      "alt": "Become Our Reseller",
+      "description": "Join our premium network. Grow with us.",
+      "h2": "Partner with LysLan and offer your customers world-class chocolate experiences.",
+      "h3": "As a LysLan reseller, you gain access to premium products, exclusive pricing, and full marketing support. Whether you're a boutique, concept store, or gift shop — our partnership program is designed for growth, success, and brand alignment. Don’t just sell a product. Represent a lifestyle. Apply today and start building something sweet and sustainable."
+    },
+    "S4": {
+      "title": "Corporate Gift Solutions",
+      "alt": "Corporate Gift Solutions",
+      "description": "Corporate gifting made unforgettable.",
+      "h2": "Strengthen relationships and elevate your brand with our elegant corporate gift collections.",
+      "h3": "Whether it's a festive season, client milestone, or team appreciation, our chocolate gifts are crafted to impress. We handle everything — from customization to bulk logistics — to ensure your brand is remembered for all the right reasons. Fast delivery, tailored service, and premium quality every step of the way. Let's make your next corporate gesture unforgettable."
+    },
+    "giftTypes": {
+      "title1": "Luxury Birthday Gifts",
+      "description1": "Celebrate unforgettable birthdays with premium handcrafted chocolates, elegantly designed to deliver joy and sweet surprises.",
+      "title2": "Romantic Gifts for Couples",
+      "description2": "Explore a refined chocolate collection curated for couples, expressing deep affection and timeless love through luxurious flavors.",
+      "title3": "Corporate Chocolate Gifts",
+      "description3": "Impress clients and partners with elegantly boxed gourmet chocolate gifts—perfect for business appreciation and professional relationships.",
+      "title4": "Anniversary Gift Boxes",
+      "description4": "Mark special milestones with meticulously crafted chocolates that symbolize meaningful memories and lasting commitment.",
+      "title5": "Family Gift Sets",
+      "description5": "Share the sweetness with luxury chocolate sets tailored for families, creating warm, joyful gatherings and cherished moments.",
+      "title6": "Personalized Chocolate Gifts",
+      "description6": "Custom-designed chocolates that reflect individual taste and sentiment, perfect for making any occasion truly unique and unforgettable."
+    },
+    "testimonials": {
+      "name1": "Ms. Minh Thu",
+      "role1": "Loyal Customer",
+      "content1": "The chocolates are truly premium with exquisite packaging. I gifted them to my husband on our anniversary, and he was delighted!",
+      "name2": "Mr. Hoang Nam",
+      "role2": "CEO, Corporate Client",
+      "content2": "We selected these premium chocolates as corporate gifts. The quality was outstanding—our clients were impressed and appreciative.",
+      "name3": "Ms. Lan Anh",
+      "role3": "Mother of Two",
+      "content3": "The chocolate gift made my child’s birthday so special. Our whole family enjoyed it—rich, delicious, and memorable!"
+    },
+    "herosection": {
+      "h2": "A Sweet Gesture of Elegance",
+      "span1": "Refined & Sophisticated",
+      "p1": "Thoughtfully crafted for those who matter most",
+      "p2": "Discover premium Vietnamese chocolate made from Vietnam finest cacao beans—delivering intense flavor and a truly luxurious experience.",
+      "span2": "Premium Vietnamese Chocolate",
+      "span3": "Elegant Gift Packaging",
+      "span4": "Nationwide Express Delivery",
+      "button": "EXPLORE NOW",
+      "alt": "Luxurious premium chocolate gift box"
+    },
+    "giftsection": {
+      "h2": "Explore Our Premium Chocolate Gift Collection",
+      "p": "Discover thoughtfully curated chocolate gifts tailored for every special occasion, relationship, and celebration in life.",
+      "button": "VIEW COLLECTION"
+    },
+    "meaningsection": {
+      "h2": "The Deeper Meaning of Chocolate Gifts",
+      "p": "More than just a gourmet treat, chocolate symbolizes love, care, and unforgettable emotions—perfect for every heartfelt occasion.",
+      "h31": "Symbol of Love & Romance",
+      "p1": "Chocolate has long been a cherished symbol of romance, conveying warmth, passion, and tenderness across generations.",
+      "h32": "The Ideal Gift Choice",
+      "p2": "From birthdays to anniversaries and festive holidays, luxury chocolate is a timeless, safe, and universally loved gift option.",
+      "h33": "Create Unforgettable Moments",
+      "p3": "Every bite of premium chocolate becomes a memory—evoking joy, appreciation, and emotional connection with the recipient.",
+      "alt1": "Couple enjoying premium chocolate together",
+      "alt2": "Luxury chocolate gift being given",
+      "alt3": "Elegant premium chocolate box with gold ribbon",
+      "alt4": "Happy family sharing chocolate moments"
+    },
+    "testimonialssection": {
+      "h2": "What Our Customers Say",
+      "p": "Real stories and heartfelt experiences from those who have chosen our premium Vietnamese chocolate gifts."
+    },
+    "ctasection": {
+      "h2": "Place Your Order Today",
+      "p": "Turn every occasion into a cherished memory with premium chocolate gifts. Contact us now for consultation and bespoke service.",
+      "btn1": "CALL NOW: 097.506.64.06",
+      "btn2": "VIEW OUR CATALOG"
+    },
+    "section2": {
+      "hero": {
+        "label": "Premium Chocolate OEM Service",
+        "headline": "Infuse Your Brand Identity",
+        "headlineHighlight": "Into Every Piece of Chocolate",
+        "intro1": "At ",
+        "intro2": "LysLan",
+        "intro3": ", we don’t just craft chocolate.",
+        "subtext1": "We ",
+        "subtext2": "transform chocolate into a medium that tells your story",
+        "subtext3": " – with sophistication, artistry, and distinction.",
+        "buttonConsult": "Request a Consultation",
+        "buttonSamples": "View Sample Collection",
+        "badge": "100% VIETNAMESE CACAO",
+        "footerNote1": "Using ",
+        "footerNote2": "100% pure Vietnamese cacao",
+        "footerNote3": " sourced from Đắk Lắk and refined through expert craftsmanship, LysLan offers a premium OEM chocolate service for brands seeking signature, story-driven product lines.",
+        "images": {
+          "bonbon": "Handcrafted premium bonbon chocolate",
+          "tablet": "Finely designed chocolate bar",
+          "dragees": "Nut-coated dragées with creative flavors",
+          "nama": "Melt-in-the-mouth premium nama chocolate"
+        }
+      },
+      "process": {
+        "headline": "From Vision to Reality",
+        "subheadline": "An Artistic Development Journey",
+        "title1": "Inspiration & Concept",
+        "description1": "Have a unique idea in mind? We start from there – working with you to define the flavor, message, and experience you wish to convey through each chocolate creation.",
+        "imageAlt1": "Creative brainstorming at the start of developing a signature chocolate brand",
+        "title2": "Formula Customization",
+        "description2": "With an experienced R&D team, LysLan helps you develop exclusive chocolate recipes based on our four signature product lines.",
+        "imageAlt2": "R&D process for developing personalized chocolate formulas",
+        "title3": "Brand-Aligned Packaging Design",
+        "description3": "From logo printing to color schemes and laser engraving – every box of LysLan chocolate can be designed to fully reflect your brand identity.",
+        "imageAlt3": "Premium packaging design tailored to brand identity",
+        "title4": "Production – Testing – Perfection",
+        "description4": "Every production stage meets food safety standards – from bean selection to final packaging – with full confidentiality and exclusivity guaranteed.",
+        "imageAlt4": "State-of-the-art production line and quality control for premium chocolate"
+      },
+      "productLines": {
+        "headline": "4 Signature Product Lines",
+        "subheadline": "Each product line tells a story – crafted with precision and passion by LysLan's master chocolatiers.",
+        "name1": "Bonbon Chocolate",
+        "description1": "Delicate, thin shell with a rich, surprising filling – a balance of art and indulgence.",
+        "features1": "Artisanal design",
+        "features2": "Diverse fillings",
+        "features3": "Ultra-thin chocolate shell",
+        "name2": "Chocolate Bars",
+        "description2": "Minimalist, elegant, easy to enjoy and perfect on the go.",
+        "features4": "Various cacao percentages",
+        "features5": "Laser-engraved logo",
+        "features6": "Luxury packaging options",
+        "name3": "Chocolate Dragées",
+        "description3": "Crunchy nuts (almond, macadamia, cashew…) coated in premium chocolate – rich and flavorful.",
+        "features7": "Imported nut ingredients",
+        "features8": "Perfect chocolate coating",
+        "features9": "Long-lasting crispness",
+        "name4": "Nama Chocolate",
+        "description4": "Velvety, melt-in-your-mouth texture with pure cacao essence.",
+        "features10": "Melt-in-the-mouth texture",
+        "features11": "No preservatives",
+        "features12": "Authentic, pure flavors",
+        "quantity1": "Flexible order volume from ",
+        "quantity2": "50 to 10,000 units",
+        "quantity3": ", tailored to meet your business scale and needs.",
+        "catalogButton": "View Product Catalog →"
+      },
+      "clientTypes": {
+        "headline": "Crafted for Visionary Brands",
+        "title1": "Luxury Gifting Brands",
+        "description1": "Create a proprietary chocolate product line that embodies your brand's identity.",
+        "title2": "Corporate Clients",
+        "description2": "Offer premium gifts for clients and partners – with elegance and a lasting impression.",
+        "title3": "Events & Resorts",
+        "description3": "Elevate your conferences, showrooms, or resort experiences with branded chocolate.",
+        "title4": "Private Individuals",
+        "description4": "Launch your very own chocolate collection – personalized with your name and story.",
+        "label": "FLEXIBLE ORDER VOLUME",
+        "range": "From 50 to 10,000 units"
+      },
+      "whyChooseUs": {
+        "headline": "Why Choose LysLan?",
+        "title1": "100% Pure Vietnamese Cacao",
+        "description1": "No blending, no imports – only cacao sourced directly from Đắk Lắk provinces.",
+        "title2": "Handcrafted Excellence",
+        "description2": "Each chocolate piece is a soulful creation, meticulously crafted by hand with passion and precision.",
+        "title3": "Artistic Vision Meets Brand Strategy",
+        "description3": "We understand not just your product, but the brand identity you’re building.",
+        "title4": "Exclusive & Confidential by Design",
+        "description4": "Your recipe and packaging design are protected with the utmost confidentiality and exclusivity.",
+        "title": "Vietnamese Cacao Heritage",
+        "description": "Guaranteed quality and transparent origin in every product we create."
+      },
+      "cta": {
+        "headline": "Let Chocolate",
+        "headlineHighlight": "Speak the Essence of Your Brand",
+        "description1": "Looking to elevate your brand with a bespoke chocolate product line?",
+        "description2": "LysLan is here to accompany you",
+        "description3": "from the first spark of inspiration to the final box delivered with care.",
+        "buttonConsult": "Request a Consultation",
+        "buttonSample": "Get a Free Sample",
+        "label": "Connect with Us",
+        "tagline": "Handcrafted Chocolate • 100% Vietnamese Cacao • Artistry & Prestige"
+      }
     }
   }
 }

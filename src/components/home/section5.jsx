@@ -4,10 +4,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import Swiper from 'swiper';
+import { useParams } from 'next/navigation';
 import 'swiper/css'; // import CSS swiper
 
 export default function ProductLines() {
     const t = useTranslations('section5');
+    const { locale } = useParams();
 
     useEffect(() => {
         // Initialize Swiper for mobile only
@@ -21,10 +23,10 @@ export default function ProductLines() {
     }, []);
 
     const products = [
-        { key: 'bonbon', link: '#', img: '/Images/IMG2.jpg' },
-        { key: 'tablet', link: '#', img: '/Images/Tablets.jpg' },
-        { key: 'dragees', link: '#', img: '/Images/Almond150g.jpg' },
-        { key: 'nama', link: '#', img: '/Images/Matcha-Nama.jpg' },
+        { key: 'bonbon', img: '/Images/IMG2.jpg' },
+        { key: 'tablet', img: '/Images/Tablets.jpg' },
+        { key: 'dragees', img: '/Images/Almond150g.jpg' },
+        { key: 'nama', img: '/Images/Matcha-Nama.jpg' },
     ];
 
     return (
@@ -52,7 +54,7 @@ export default function ProductLines() {
                                 />
                                 <h4 className="text-center font-playfair text-md mb-3 text-[#5c2e00]">{data.h4}</h4>
                                 <Link
-                                    href={item.link}
+                                    href={`/${locale}/products?category=${item.key}`}
                                     className="btn-slide-custom"
                                 >
                                     {data.CTA} →
@@ -81,7 +83,7 @@ export default function ProductLines() {
                                         />
                                         <h4 className="text-center font-playfair text-md mb-3 text-[#5c2e00]">{data.h4}</h4>
                                         <Link
-                                            href={item.link}
+                                            href={`/${locale}/products?category=${item.key}`}
                                             className="btn-slide-custom"
                                         >
                                             {data.CTA} →
@@ -95,7 +97,7 @@ export default function ProductLines() {
 
                 <div className="text-center">
                     <Link
-                        href="#"
+                        href={`/${locale}/products`}
                         className="btn-glow block w-full max-w-[800px] border-4 font-extrabold border-[#DE9400] text-center text-[#3e1f0e] text-2xl py-[8px] px-[18px] rounded-[8px] font-[Roboto] mx-auto whitespace-normal no-underline hover:bg-[#DE9400] hover:text-amber-50 transition"
                     >
                         {t('sectionCTA')}

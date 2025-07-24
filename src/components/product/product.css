@@ -1,0 +1,680 @@
+/* src/components/product.css */
+
+/* Import Google Fonts nếu chưa có */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+/* Floating golden dust animation */
+@keyframes float {
+  0% {
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+    opacity: 0.2;
+  }
+  33% {
+    transform: translateY(-20px) translateX(10px) rotate(120deg);
+    opacity: 0.6;
+  }
+  66% {
+    transform: translateY(-10px) translateX(-5px) rotate(240deg);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-30px) translateX(15px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Twinkling stars animation */
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scale(0.8) rotate(0deg);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.2) rotate(180deg);
+  }
+}
+
+/* Luxury badge animations */
+@keyframes luxuryGlow {
+  0%, 100% {
+    box-shadow: 
+      0 0 10px rgba(222, 148, 0, 0.3),
+      0 0 20px rgba(222, 148, 0, 0.2),
+      inset 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  50% {
+    box-shadow: 
+      0 0 20px rgba(222, 148, 0, 0.6),
+      0 0 30px rgba(222, 148, 0, 0.4),
+      inset 0 0 15px rgba(255, 255, 255, 0.2);
+  }
+}
+
+@keyframes shimmerBadge {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
+  }
+}
+
+@keyframes badgePulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Enhanced category button effects */
+@keyframes goldDust {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0);
+  }
+  10% {
+    opacity: 0.7;
+    transform: translateY(15px) scale(0.5);
+  }
+  90% {
+    opacity: 0.3;
+    transform: translateY(-15px) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0);
+  }
+}
+
+@keyframes sparkleTrail {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0) rotate(0deg);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(-5px) scale(0.5) rotate(90deg);
+  }
+  75% {
+    opacity: 0.6;
+    transform: translateY(-10px) scale(1) rotate(270deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-15px) scale(0) rotate(360deg);
+  }
+}
+
+/* Apply animations */
+.animate-float {
+  animation: float linear infinite;
+}
+
+.animate-twinkle {
+  animation: twinkle ease-in-out infinite;
+}
+
+/* Luxury badge styling */
+.luxury-badge {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent);
+  backdrop-filter: blur(10px);
+  animation: luxuryGlow 3s ease-in-out infinite;
+}
+
+.luxury-badge::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(45deg, rgba(255,255,255,0.5), transparent, rgba(255,255,255,0.5));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.luxury-badge:hover {
+  animation: luxuryGlow 1.5s ease-in-out infinite, badgePulse 2s ease-in-out infinite;
+}
+
+/* Enhanced gradients for badges */
+.luxury-badge.featured {
+  background: linear-gradient(135deg, #f59e0b, #eab308, #f59e0b);
+  background-size: 200% 200%;
+  animation: shimmerBadge 2s ease-in-out infinite, luxuryGlow 3s ease-in-out infinite;
+}
+
+.luxury-badge.new {
+  background: linear-gradient(135deg, #10b981, #059669, #10b981);
+  background-size: 200% 200%;
+  animation: shimmerBadge 2s ease-in-out infinite, luxuryGlow 3s ease-in-out infinite;
+}
+
+.luxury-badge.bestseller {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed, #8b5cf6);
+  background-size: 200% 200%;
+  animation: shimmerBadge 2s ease-in-out infinite, luxuryGlow 3s ease-in-out infinite;
+}
+
+/* Font family utilities */
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Enhanced category navigation effects */
+.category-nav-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.category-nav-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(222, 148, 0, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(222, 148, 0, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(222, 148, 0, 0.08) 0%, transparent 50%);
+  animation: backgroundShimmer 8s ease-in-out infinite;
+}
+
+@keyframes backgroundShimmer {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translateX(10px);
+  }
+}
+
+/* Product card enhancements */
+.product-card {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(222, 148, 0, 0.05), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.product-card:hover::before {
+  opacity: 1;
+}
+
+/* Quantity selector enhancements */
+.quantity-selector {
+  background: linear-gradient(145deg, #fff8f5, #f5f5f0);
+  box-shadow: 
+    inset 2px 2px 5px rgba(62, 31, 14, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+.quantity-btn {
+  transition: all 0.2s ease;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+}
+
+.quantity-btn:hover {
+  background: linear-gradient(145deg, #fff8f5, #f0f0f0);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(222, 148, 0, 0.2);
+}
+
+.quantity-btn:active {
+  transform: translateY(0);
+}
+
+/* Price styling enhancements */
+.price-main {
+  background: linear-gradient(135deg, #3e1f0e, #2d1609);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.price-main::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #DE9400, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .price-main::after {
+  opacity: 1;
+}
+
+/* Loading spinner enhancement */
+.luxury-spinner {
+  border: 2px solid rgba(222, 148, 0, 0.2);
+  border-top: 2px solid #DE9400;
+  border-radius: 50%;
+  animation: luxurySpin 1s linear infinite;
+}
+
+@keyframes luxurySpin {
+  0% { 
+    transform: rotate(0deg);
+    box-shadow: 0 0 5px rgba(222, 148, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(222, 148, 0, 0.6);
+  }
+  100% { 
+    transform: rotate(360deg);
+    box-shadow: 0 0 5px rgba(222, 148, 0, 0.3);
+  }
+}
+
+/* Enhanced button styles */
+.luxury-button {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #3e1f0e, #2d1609);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.luxury-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.luxury-button:hover::before {
+  left: 100%;
+}
+
+.luxury-button:hover {
+  background: linear-gradient(135deg, #DE9400, #c58400);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(222, 148, 0, 0.3);
+}
+
+/* Thêm vào file src/components/product.css */
+
+/* Enhanced Luxury Badges */
+.luxury-badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: white;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  border: 2px solid;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.luxury-badge:hover {
+  transform: scale(1.15) translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Featured Badge - Golden */
+.featured-badge {
+  background: linear-gradient(135deg, #d1a14e, #e5b768, #f7d77e);
+  border-color: #f7d77e;
+  box-shadow: 0 4px 15px rgba(209, 161, 78, 0.4);
+}
+
+.featured-badge:hover {
+  box-shadow: 0 8px 25px rgba(209, 161, 78, 0.6);
+}
+
+/* New Badge - Pink/Rose */
+.new-badge {
+  background: linear-gradient(135deg, #f8b8d2, #f3d5e4, #fce4ec);
+  border-color: #f7d0e1;
+  box-shadow: 0 4px 15px rgba(248, 184, 210, 0.4);
+  color: #8e24aa;
+}
+
+.new-badge:hover {
+  box-shadow: 0 8px 25px rgba(248, 184, 210, 0.6);
+}
+
+/* Bestseller Badge - Brown */
+.bestseller-badge {
+  background: linear-gradient(135deg, #6e4b3a, #9d7a5b, #c59e7a);
+  border-color: #c59e7a;
+  box-shadow: 0 4px 15px rgba(110, 75, 58, 0.4);
+}
+
+.bestseller-badge:hover {
+  box-shadow: 0 8px 25px rgba(110, 75, 58, 0.6);
+}
+
+/* Badge Shimmer Effect */
+.badge-shimmer {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transition: left 0.8s ease-in-out;
+}
+
+.luxury-badge:hover .badge-shimmer {
+  left: 100%;
+}
+
+/* Badge Content */
+.badge-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+/* Product Card Enhancements */
+.product-card {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card:hover {
+  transform: translateY(-8px);
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(222, 148, 0, 0.05), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.product-card:hover::before {
+  opacity: 1;
+}
+
+/* Quantity Selector Styling */
+.quantity-selector {
+  background: linear-gradient(145deg, #fff8f5, #f5f5f0);
+  box-shadow: 
+    inset 2px 2px 5px rgba(62, 31, 14, 0.1),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.8);
+}
+
+.quantity-btn {
+  transition: all 0.2s ease;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+}
+
+.quantity-btn:hover:not(:disabled) {
+  background: linear-gradient(145deg, #fff8f5, #f0f0f0);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(222, 148, 0, 0.2);
+}
+
+.quantity-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/* Price Main Enhancement */
+.price-main {
+  background: linear-gradient(135deg, #3e1f0e, #2d1609);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.price-main::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #DE9400, transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .price-main::after {
+  opacity: 1;
+}
+
+/* Line Clamp Utilities */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Button Hover Effects */
+.product-card button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card button:hover {
+  transform: translateY(-1px);
+}
+
+.product-card button:active {
+  transform: translateY(0);
+}
+
+/* Badge Animation Keyframes */
+@keyframes badgeGlow {
+  0%, 100% {
+    box-shadow: 0 4px 15px rgba(222, 148, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 6px 20px rgba(222, 148, 0, 0.5);
+  }
+}
+
+.luxury-badge {
+  animation: badgeGlow 3s ease-in-out infinite;
+}
+
+/* Enhanced Focus States */
+.product-card a:focus,
+.product-card button:focus {
+  outline: 2px solid #DE9400;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  .luxury-badge {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.625rem;
+    transform: scale(1);
+  }
+  
+  .luxury-badge:hover {
+    transform: scale(1.05) translateY(-1px);
+  }
+  
+  .product-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .quantity-selector {
+    font-size: 0.875rem;
+  }
+  
+  .badge-content {
+    gap: 0.125rem;
+  }
+  
+  .badge-content svg {
+    width: 0.875rem;
+    height: 0.875rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .luxury-badge {
+    animation: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+  }
+  
+  .product-card:hover {
+    transform: none !important;
+  }
+  
+  .badge-shimmer {
+    display: none;
+  }
+}
+
+/* Dark Mode Support (Optional) */
+@media (prefers-color-scheme: dark) {
+  .product-card {
+    background: #1a1a1a;
+    border-color: rgba(222, 148, 0, 0.2);
+  }
+  
+  .quantity-selector {
+    background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+    box-shadow: 
+      inset 2px 2px 5px rgba(0, 0, 0, 0.3),
+      inset -2px -2px 5px rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Accessibility Enhancements */
+@media (prefers-reduced-motion: reduce) {
+  .luxury-badge,
+  .product-card,
+  .quantity-btn,
+  .badge-shimmer {
+    animation: none !important;
+    transition-duration: 0.1s !important;
+  }
+  
+  .product-card:hover {
+    transform: none !important;
+  }
+  
+  .luxury-badge:hover {
+    transform: scale(1.02) !important;
+  }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+  .luxury-badge {
+    border-width: 3px;
+    font-weight: 700;
+  }
+  
+  .product-card {
+    border-width: 2px;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .luxury-badge {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+  
+  .animate-float {
+    animation-duration: 12s;
+  }
+  
+  .animate-twinkle {
+    animation-duration: 4s;
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced focus states for accessibility */
+.luxury-button:focus,
+.quantity-btn:focus {
+  outline: 2px solid #DE9400;
+  outline-offset: 2px;
+}
+
+/* Print styles */
+@media print {
+  .animate-float,
+  .animate-twinkle,
+  .luxury-badge {
+    animation: none !important;
+  }
+}

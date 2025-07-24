@@ -43,7 +43,7 @@ export default function ProductCarousel({ boxType }) {
     }
 
     return (
-        <div className="py-4 px-6 max-w-full min-h-[300px] overflow-hidden mt-10">
+        <div className="py-4 px-6 max-w-full min-h-[300px] overflow-hidden mt-11">
             <Swiper
                 modules={[Navigation]}
                 navigation={{
@@ -55,7 +55,7 @@ export default function ProductCarousel({ boxType }) {
                 spaceBetween={15}
                 loop={displayedProducts.length > 3} // Chỉ loop khi có nhiều hơn 3 sản phẩm
                 onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-                className="mySwiper h-[300px]"
+                className="mySwiper h-[200px]"
             >
                 {displayedProducts.map((product, index) => (
                     <SwiperSlide

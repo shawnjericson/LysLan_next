@@ -1,10 +1,24 @@
-export default function ProductMaintenancePage() {
+// src/app/[locale]/product/page.jsx
+import React from 'react';
+import Metadata from '@/components/SEO/SEOGeneric';
+import ProductList from '@/components/product/ProductList';
+
+export default function Products() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#fffaf4] text-center p-8">
-      <h1 className="text-3xl font-bold text-[#8b542e] mb-4">Trang đang được xây dựng</h1>
-      <p className="text-gray-600 text-lg">
-        Chúng mình đang trong quá trình xây dựng. Mong bạn thông cảm và quay lại sau 💛
-      </p>
-    </div>
+    <>
+      <Metadata pageKey="products" />
+      <main>
+        <div className="min-h-screen bg-gray-50 py-8">
+          <div className="container mx-auto px-4">
+            <h1 className="text-4xl font-bold text-center mb-2 text-gray-800">
+            </h1>
+            <p className="text-center text-gray-600 mb-12">
+            </p>
+
+            <ProductList />
+          </div>
+        </div>
+      </main>
+    </>
   );
 }

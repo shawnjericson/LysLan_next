@@ -13,9 +13,9 @@ export default async function LocaleLayout({ children, params }) {
     <html lang={locale}>
       <body>
         <CartProvider>
-          <nav className="sticky top-0 z-50">
-            <Header />
-          </nav>
+          <header className="sticky top-0 z-50">
+            <Header/>
+          </header>
           {children}
           <Footer />
         </CartProvider>

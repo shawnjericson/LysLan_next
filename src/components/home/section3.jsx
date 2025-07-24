@@ -4,12 +4,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, EffectCoverflow } from 'swiper/modules';
+import { useParams } from 'next/navigation';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-coverflow';
 
 export default function FlagshipSection() {
     const t = useTranslations('section3');
+    const { locale } = useParams();
 
     const items = [
         {
@@ -18,7 +20,10 @@ export default function FlagshipSection() {
             title: t('bb1.imgtitle'),
             h4: t('bb1.bbh4'),
             p: t('bb1.bbp'),
-            cta: t('bb1.bbCTA')
+            cta: t('bb1.bbCTA'),
+            link: locale === 'vi' 
+            ? 'products/hop-6-vien-hanh-trinh-vi-giac' 
+            : 'products/box-of-6-journey-of-flavors'
         },
         {
             img: '/Images/FS2.jpg',
@@ -26,7 +31,10 @@ export default function FlagshipSection() {
             title: t('bb2.imgtitle'),
             h4: t('bb2.bbh4'),
             p: t('bb2.bbp'),
-            cta: t('bb2.bbCTA')
+            cta: t('bb2.bbCTA'),
+            link: locale === 'vi' 
+            ? 'products/hop-6-vien-tinh-hoa-viet' 
+            : 'products/box-of-6-essence-of-vietnam'
         },
         {
             img: '/Images/WK1.jpg',
@@ -34,7 +42,10 @@ export default function FlagshipSection() {
             title: t('bb3.imgtitle'),
             h4: t('bb3.bbh4'),
             p: t('bb3.bbp'),
-            cta: t('bb3.bbCTA')
+            cta: t('bb3.bbCTA'),
+            link: locale === 'vi' 
+            ? 'products/hop-6-vien-hanh-trinh-vi-giac' 
+            : 'products/box-of-6-journey-of-flavors'
         }
     ];
 
@@ -63,7 +74,7 @@ export default function FlagshipSection() {
                             <h4 className="text-2xl font-semibold mb-2 font-[Playfair_Display]">{item.h4}</h4>
                             <p className="text-sm text-gray-600">{item.p}</p>
                             <div className="text-center mt-4">
-                                <Link href="#"
+                                <Link href={`/${locale}/${item.link}`}
                                     className="btn-slide-custom">
                                     {item.cta}
                                 </Link>
@@ -122,7 +133,7 @@ export default function FlagshipSection() {
             <div className="text-center mt-10">
                 <h4 className="text-2xl mb-4 font-[Playfair_Display]">{t('sectionCTA')}</h4>
                 <Link
-                    href="#"
+                    href={`/${locale}/products?category=bonbon`}
                     className="btn-glow block w-full max-w-[800px] border-4 font-extrabold border-[#DE9400] text-center text-[#3e1f0e] text-4xl py-[8px] px-[18px] rounded-[8px] font-[Roboto] mx-auto whitespace-normal no-underline hover:bg-[#DE9400] hover:text-amber-50 transition">
                     {t('CTAbutton')} <i className="bi bi-chevron-right"></i>
                 </Link>

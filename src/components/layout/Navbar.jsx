@@ -1,10 +1,8 @@
 'use client';
 import { useTranslations } from '@/lib/useTranslations';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { useParams } from 'next/navigation';
-
 import SlideInMenu from '../navbar/slideinmenu';
 import Submenu from '../navbar/submenu';
 import Megadropdown from '../navbar/megadropdown';
@@ -12,11 +10,10 @@ import Logo from '../navbar/Logo';
 import Search from '../navbar/searchbutton';
 import Cart from '../navbar/CartIcon';
 import LanguageDropdown from '@/components/navbar/LanguageDropdown';
-import { AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 
 export default function Navbar() {
   const t = useTranslations('navbar');
-  // 💡 State để điều khiển menu
   const [menuOpen, setMenuOpen] = useState(false);
   const [subMenuOpen, setSubMenuOpen] = useState(false);
   const { locale } = useParams();
@@ -35,94 +32,142 @@ export default function Navbar() {
     setMenuOpen(false);
     setSubMenuOpen(false);
   };
+
   return (
-    <nav className="sticky h-28 top-0 items-center bg-[#fff8f5]">
-      <div className="mx-auto max-w-full px-2 sm:px-6 lg:px-4 items-center">
-        <div className="relative flex h-28 items-center">
-          <div className="flex items-center justify-center sm:hidden gap-1 mr-10 ml-1.5">
-            {/* Mobile menu button */}
-            <button type="button" className="relative inline-flex items-center justify-center rounded-md p-2 text-[#3e1f0e] hover:bg-gray-700 hover:text-white focus:ring-2 focus:ring-white focus:outline-hidden focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false" onClick={openMenu}>
-              <span className="absolute -inset-0.5"></span>
-              <span className="sr-only">Open main menu</span>
+    <nav className="sticky top-0 z-50 bg-[#fff8f5] shadow-sm">
+      {/* Desktop Navigation */}
+      <div className="hidden lg:block">
+        <div className="h-28 max-w-[1600px] mx-auto px-8">
+          {/* Main navigation container */}
+          <div className="flex items-center justify-center h-full relative">
+            {/* Navigation items container - flex with specific widths */}
+            <div className="flex items-center justify-center w-full max-w-[1400px]">
 
-              {/* Icon when menu is closed. */}
+              {/* Left Navigation Group */}
+              <div className="flex items-center justify-end flex-1 gap-8 pr-12">
+                <LanguageDropdown />
+                <Link
+                  href={`/${locale}`}
+                  className="nav-link text-[#3e1f0e] font-medium py-2 font-[Playfair_Display] hover:text-[#DE9400] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('left.homepage')}
+                </Link>
+                <div className="nav-link">
+                  <Megadropdown />
+                </div>
+              </div>
 
-              {/* Menu open: "hidden", Menu closed: "block" */}
+              {/* Center Logo - Fixed width to maintain spacing */}
+              <div className="flex-shrink-0 mx-12">
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.5 }}
+                  className="transform hover:scale-105 transition-transform duration-300"
+                >
+                  <Logo />
+                </motion.div>
+              </div>
 
-              <svg className="block size-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
+              {/* Right Navigation Group */}
+              <div className="flex items-center justify-start flex-1 gap-8 pl-12">
+                <Link
+                  href={`/${locale}/gifts`}
+                  className="nav-link text-[#3e1f0e] font-medium py-2 font-[Playfair_Display] hover:text-[#DE9400] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('contact.contactname')}
+                </Link>
+                <Link
+                  href={`/${locale}/about`}
+                  className="nav-link text-[#3e1f0e] font-medium py-2 font-[Playfair_Display] hover:text-[#DE9400] transition-colors duration-300 whitespace-nowrap"
+                >
+                  {t('story.storyname')}
+                </Link>
+                <Link
+                  href={`/${locale}/products`}
+                  className="cta-button text-[#fff8f5] px-6 py-2.5 font-medium rounded-full bg-[#DE9400] hover:bg-[#c17f00] shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 whitespace-nowrap"
+                >
+                  {t('CTA.CTAname')}
+                </Link>
+                <div className="flex items-center gap-2 ml-4">
+                  <Search />
+                  <Cart />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-              {/* Icon when menu is open. */}
-
-              {/* Menu open: "block", Menu closed: "hidden" */}
-
-              <svg className="hidden size-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
-              </svg>
-            </button>
-            <div className="flex items-center justify-center">
+      {/* Tablet Navigation */}
+      <div className="hidden md:block lg:hidden">
+        <div className="h-24 px-6">
+          <div className="flex items-center justify-between h-full relative">
+            {/* Left - Menu & Language */}
+            <div className="flex items-center gap-3">
+              <button
+                type="button"
+                className="p-2 rounded-lg text-[#3e1f0e] hover:bg-[#DE9400] hover:text-white transition-all duration-300"
+                onClick={openMenu}
+              >
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
               <LanguageDropdown />
             </div>
-          </div>
-          <div className="hidden lg:flex items-center justify-center">
-              <LanguageDropdown />
-            </div>
-          <div className="flex-1 items-center justify-end gap-2 hidden lg:flex">
-            <div>
-              <Link href={`/${locale}`}
-                title={t('left.hometitle')}
-                aria-label={t('left.homearia-label')}
-                className="btn-glow block w-full max-w-[380px] text-center text-[#3e1f0e] text-[18px] font-[500] py-[8px] px-[18px] rounded-[8px] font-[Playfair_Display] mx-auto whitespace-normal no-underline hover:bg-[#DE9400] hover:text-amber-50 transition"
-              >
-                {t('left.homepage')}
-              </Link>
-            </div>
-            <Megadropdown />
-          </div>
-          <div className="flex justify-center items-center w-full lg:w-auto px-4">
-            <Logo />
-          </div>
-          <div className="items-center justify-start gap-2 hidden lg:flex">
-            <div>
-              <Link href={`/${locale}/products`}
-                title={t('contact.contacttitle')}
-                aria-label={t('contact.contactaria')}
-                className="btn-glow block w-full max-w-[380px] text-center text-[#3e1f0e] text-[18px] font-[500] py-[8px] px-[18px] rounded-[8px] font-[Playfair_Display] mx-auto whitespace-normal no-underline hover:bg-[#DE9400] hover:text-amber-50 transition"
-                priority="true"
-              >
-                {t('contact.contactname')}
 
-              </Link>
+            {/* Center - Logo */}
+            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <Logo />
             </div>
-            <div>
-              <Link href={`/${locale}/about`}
-                title={t('story.storytitle')}
-                aria-label={t('story.storyaria')}
-                className="btn-glow block w-full max-w-[380px] text-center text-[#3e1f0e] text-[18px] font-[500] py-[8px] px-[18px] rounded-[8px] font-[Playfair_Display] mx-auto whitespace-normal no-underline hover:bg-[#DE9400] hover:text-amber-50 transition"
-              >
-                {t('story.storyname')}
-              </Link>
-            </div>
-          </div>
-          <div className="flex items-center right-0 m-0 ml-1">
-            <div className="hidden lg:flex mr-4">
-              <Link href={`/${locale}/products`}
-                title={t('CTA.CTAtitle')}
-                aria-label={t('CTA.CTAaria')}
-                className="cta-glow relative inline-block text-[#3e1f0e] px-6 py-3 text-lg font-bold font-[roboto] rounded-md bg-gradient-to-r from-[#ffecec] to-[#f6c1c1]  shadow-lg z-[0]"
-              >
-                {t('CTA.CTAname')}
-              </Link>
-            </div>
-            <div className="m-0 p-0 flex gap-0.5">
+
+            {/* Right - Icons */}
+            <div className="flex items-center gap-2">
               <Search />
               <Cart />
             </div>
           </div>
         </div>
       </div>
-      {/* 💥 Slide menu + Submenu */}
+
+      {/* Mobile Navigation */}
+      <div className="block md:hidden">
+        <div className="h-20 px-4">
+          <div className="flex items-center justify-between h-full relative">
+            {/* Left - Menu & Language */}
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                className="p-1.5 rounded-lg text-[#3e1f0e] hover:bg-[#DE9400] hover:text-white transition-all duration-300"
+                onClick={openMenu}
+              >
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+              <div className="scale-90">
+                <LanguageDropdown />
+              </div>
+            </div>
+
+            {/* Center - Logo */}
+            <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <div className="scale-75">
+                <Logo />
+              </div>
+            </div>
+
+            {/* Right - Icons */}
+            <div className="flex items-center gap-1">
+              <Search />
+              <Cart />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Slide Menus */}
       <AnimatePresence>
         {menuOpen && (
           <SlideInMenu

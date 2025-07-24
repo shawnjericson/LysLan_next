@@ -1,6 +1,6 @@
 'use client';
 import { useTranslations } from '@/lib/useTranslations';
-import ProductList from './ProductList';
+import ProductList from './productlist';
 import ProductShowcase from './productshowcase'; // bạn đã có sẵn
 import React, { useState } from 'react';
 

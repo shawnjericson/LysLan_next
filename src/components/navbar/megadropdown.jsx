@@ -3,11 +3,12 @@ import { useState } from 'react';
 import { useTranslations } from '@/lib/useTranslations';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 
 export default function MegaDropdown() {
     const [isOpen, setIsOpen] = useState(false);
     const t = useTranslations('megadropmenu');
-
+    const { locale } = useParams();
     return (
         <div
             className="relative"
@@ -15,13 +16,13 @@ export default function MegaDropdown() {
             onMouseLeave={() => setIsOpen(false)}
         >
             {/* Nút trigger */}
-            <div
-                className="btn-glow block w-full max-w-[380px] text-center text-[#3e1f0e] text-[18px] font-[500] py-[8px] px-[18px] rounded-[8px] font-[Playfair_Display] mx-auto whitespace-normal no-underline hover:bg-[#DE9400] hover:text-amber-50 transition cursor-pointer"
+            <Link href={`/${locale}/products`}
+                className="block w-full max-w-[380px] text-center text-[#3e1f0e] text-[18px] font-[500] py-[8px] px-[18px] rounded-[8px] font-[Playfair_Display] mx-auto whitespace-normal no-underlin transition cursor-pointer"
                 title={t('droptitle')}
                 aria-label={t('droparia-label')}
             >
                 {t('dropmenu')}
-            </div>
+            </Link>
 
             {/* Dropdown */}
             {isOpen && (
@@ -36,7 +37,7 @@ export default function MegaDropdown() {
                                 { key: 'nama', src: '/Images/Nama.jpg' }
                             ].map(({ key, src }) => (
                                 <Link
-                                    href="#"
+                                    href={`/${locale}/products?category=${key}`}
                                     key={key}
                                     className="flex items-center gap-3 font-[Playfair_Display] hover:bg-linear-to-tr from-gray-50 to-gray-100 transition hover:opacity-90"
                                 >

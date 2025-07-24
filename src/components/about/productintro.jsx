@@ -3,11 +3,12 @@ import Image from 'next/image';
 import { useTranslations } from '@/lib/useTranslations';
 import { useState, useEffect } from 'react';
 
-export default function ProductIntro({ boxType }) {
+export default function ProductIntro({ boxType, onComplete }) {
     const t = useTranslations('Aboutus');
     const [mainVisible, setMainVisible] = useState(false);
     const [secondPairVisible, setSecondPairVisible] = useState(false);
     const [thirdPairVisible, setThirdPairVisible] = useState(false);
+    const [animationComplete, setAnimationComplete] = useState(false);
 
     // Tất cả sản phẩm bonbon
     const allProducts = [
@@ -29,90 +30,169 @@ export default function ProductIntro({ boxType }) {
     let displayedProducts = allProducts.slice(0, 5); // Mặc định 5 sản phẩm cho animation
 
     if (boxType === 'box6cb1') {
-        displayedProducts = allProducts.slice(0, 5); // 5 sản phẩm đầu tiên cho animation
+        displayedProducts = allProducts.slice(0, 5);
     } else if (boxType === 'box6cb2') {
-        displayedProducts = allProducts.slice(6, 11); // 5 sản phẩm từ nhóm thứ 2
+        displayedProducts = allProducts.slice(6, 11);
     } else if (boxType === 'box12') {
-        displayedProducts = allProducts.slice(0, 5); // Vẫn chỉ hiển thị 5 cho animation
+        displayedProducts = allProducts.slice(0, 5);
     } else if (boxType === 'box24') {
-        displayedProducts = allProducts.slice(0, 5); // Vẫn chỉ hiển thị 5 cho animation
+        displayedProducts = allProducts.slice(0, 5);
     }
 
     useEffect(() => {
-        const mainTimeout = setTimeout(() => setMainVisible(true), 500);
-        const secondTimeout = setTimeout(() => setSecondPairVisible(true), 1500);
-        const thirdTimeout = setTimeout(() => setThirdPairVisible(true), 2500);
+        const sequence = async () => {
+            // Phase 1: Main product appears
+            await new Promise(resolve => {
+                setTimeout(() => {
+                    setMainVisible(true);
+                    resolve();
+                }, 300);
+            });
 
-        return () => {
-            clearTimeout(mainTimeout);
-            clearTimeout(secondTimeout);
-            clearTimeout(thirdTimeout);
+            // Phase 2: Second pair appears
+            await new Promise(resolve => {
+                setTimeout(() => {
+                    setSecondPairVisible(true);
+                    resolve();
+                }, 800);
+            });
+
+            // Phase 3: Third pair appears
+            await new Promise(resolve => {
+                setTimeout(() => {
+                    setThirdPairVisible(true);
+                    resolve();
+                }, 800);
+            });
+
+            // Phase 4: Hold position briefly
+            await new Promise(resolve => {
+                setTimeout(() => {
+                    setAnimationComplete(true);
+                    resolve();
+                }, 800);
+            });
         };
+
+        sequence();
     }, []);
 
+    // Notify parent when animation is complete
+    useEffect(() => {
+        if (animationComplete && onComplete) {
+            onComplete();
+        }
+    }, [animationComplete, onComplete]);
+
     const getProductStyle = (index) => {
+        const baseStyle = {
+            position: 'absolute',
+            width: '120px',
+            height: '120px',
+            borderRadius: '12px',
+            overflow: 'hidden',
+            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+            backgroundColor: 'white',
+            transition: 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)',
+        };
+
         if (index === 0) {
             return {
+                ...baseStyle,
                 left: '50%',
+                top: '50%',
                 transform: mainVisible
-                    ? 'translateX(-50%) scale(1.1) translateY(20px)'
-                    : 'translateX(-50%) scale(0)',
+                    ? 'translateX(-50%) translateY(-50%) scale(1.15)'
+                    : 'translateX(-50%) translateY(-50%) scale(0)',
                 opacity: mainVisible ? 1 : 0,
-                zIndex: 20,
+                zIndex: 25,
+                filter: animationComplete ? 'brightness(1.1) saturate(1.1)' : 'none',
             };
         }
 
         if (index === 1) {
             return {
+                ...baseStyle,
                 left: '50%',
+                top: '50%',
                 transform: secondPairVisible
-                    ? `translateX(-200px) translateY(15px)`
-                    : 'translateX(-50%)',
-                opacity: secondPairVisible ? 1 : 0,
-                zIndex: 15,
+                    ? `translateX(-220px) translateY(-40px) scale(0.95)`
+                    : 'translateX(-50%) translateY(-50%) scale(0)',
+                opacity: secondPairVisible ? 0.9 : 0,
+                zIndex: 20,
             };
         }
 
         if (index === 2) {
             return {
+                ...baseStyle,
                 left: '50%',
+                top: '50%',
                 transform: secondPairVisible
-                    ? `translateX(80px) translateY(15px)`
-                    : 'translateX(-50%)',
-                opacity: secondPairVisible ? 1 : 0,
-                zIndex: 15,
+                    ? `translateX(100px) translateY(-40px) scale(0.95)`
+                    : 'translateX(-50%) translateY(-50%) scale(0)',
+                opacity: secondPairVisible ? 0.9 : 0,
+                zIndex: 20,
             };
         }
 
         if (index === 3) {
             return {
+                ...baseStyle,
                 left: '50%',
+                top: '50%',
                 transform: thirdPairVisible
-                    ? `translateX(-335px)`
-                    : 'translateX(-50%)',
-                opacity: thirdPairVisible ? 1 : 0,
-                zIndex: 10,
+                    ? `translateX(-360px) translateY(-50px) scale(0.85)`
+                    : 'translateX(-50%) translateY(-50%) scale(0)',
+                opacity: thirdPairVisible ? 0.8 : 0,
+                zIndex: 15,
             };
         }
 
         if (index === 4) {
             return {
+                ...baseStyle,
                 left: '50%',
+                top: '50%',
                 transform: thirdPairVisible
-                    ? `translateX(215px)`
-                    : 'translateX(-50%)',
-                opacity: thirdPairVisible ? 1 : 0,
-                zIndex: 10,
+                    ? `translateX(240px) translateY(-50px) scale(0.85)`
+                    : 'translateX(-50%) translateY(-50%) scale(0)',
+                opacity: thirdPairVisible ? 0.8 : 0,
+                zIndex: 15,
             };
         }
     };
 
     return (
-        <div className="flex items-center justify-center min-h-[200px] relative overflow-hidden">
+        <div className="flex items-center justify-center min-h-[300px] relative overflow-hidden">
+            {/* Background glow effect */}
+            <div
+                className={`absolute inset-0 bg-gradient-radial from-amber-100/30 via-transparent to-transparent transition-opacity duration-1000 ${animationComplete ? 'opacity-100' : 'opacity-0'
+                    }`}
+            />
+
+            {/* Floating particles */}
+            {animationComplete && (
+                <>
+                    {[...Array(6)].map((_, i) => (
+                        <div
+                            key={i}
+                            className="absolute w-1 h-1 bg-amber-300 rounded-full animate-pulse"
+                            style={{
+                                left: `${20 + Math.random() * 60}%`,
+                                top: `${20 + Math.random() * 60}%`,
+                                animationDelay: `${i * 0.3}s`,
+                                animationDuration: `${2 + Math.random()}s`,
+                            }}
+                        />
+                    ))}
+                </>
+            )}
+
+            {/* Product Images */}
             {displayedProducts.map((product, index) => (
                 <div
                     key={product.id}
-                    className="transition-all duration-1000 ease-out absolute w-[120px] h-[120px] rounded-xl overflow-hidden shadow-md bg-white"
                     style={getProductStyle(index)}
                 >
                     <Image
@@ -120,9 +200,28 @@ export default function ProductIntro({ boxType }) {
                         alt={product.name}
                         fill
                         className="object-cover"
+                        sizes="120px"
+                        priority={index === 0}
                     />
+
+                    {/* Product name overlay for main product */}
+                    {index === 0 && animationComplete && (
+                        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-2">
+                            <p className="text-white text-xs font-medium text-center truncate">
+                                {product.name}
+                            </p>
+                        </div>
+                    )}
                 </div>
             ))}
+
+            {/* Center highlight ring */}
+            {animationComplete && (
+                <div
+                    className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 border-2 border-amber-300/50 rounded-full animate-pulse"
+                    style={{ zIndex: 5 }}
+                />
+            )}
         </div>
     );
 }
