@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { supabase } from '@/lib/supabaseClient'
 
 export default function Home() {
-  const [data, setData] = useState<any[]>([])
+  const [data, setData] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
