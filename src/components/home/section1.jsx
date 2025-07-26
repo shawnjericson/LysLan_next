@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import clsx from 'clsx';
 
-export default function VideoIntro() {
+export default function VideoIntro({ locale }) {
   const t = useTranslations('section1');
   const videoRef = useRef(null);
   const [captionIndex, setCaptionIndex] = useState(-1);
@@ -68,11 +68,16 @@ export default function VideoIntro() {
           className="w-full max-h-[80vh] object-cover"
           aria-label={t('videoaria')}
         >
-          <source src="/Chocolate_intro.mp4" type="video/mp4" />
+          {/* ✅ Thay đổi source URL thành Cloudinary */}
+          <source
+            src="https://res.cloudinary.com/dfnlmwmqj/video/upload/v1753549151/Chocolate_intro_mltrno.mp4"
+            type="video/mp4"
+          />
+          {/* ✅ Fallback message */}
           {t('videonote')}
         </video>
 
-        {/* ✅ Fullscreen mặc định (ẩn) – chỉ hiện khi hover */}
+        {/* ✅ Fullscreen button - ẩn mặc định, hiện khi hover */}
         <button
           className="absolute bottom-2 right-2 text-white bg-black/40 p-2 rounded hover:bg-black/70 transition hidden group-hover:block"
           onClick={() => videoRef.current?.requestFullscreen()}
@@ -81,18 +86,22 @@ export default function VideoIntro() {
           ⛶
         </button>
 
-        {/* ✅ Replay button sau khi kết thúc */}
+        {/* ✅ Replay button sau khi video kết thúc */}
         {ended && (
           <button
-            className="absolute inset-0 flex items-center justify-center bg-black/50 text-white text-lg font-bold"
+            className="absolute inset-0 flex items-center justify-center bg-black/50 text-white text-lg font-bold hover:bg-black/60 transition-colors"
             onClick={handleReplay}
             aria-label="Replay video"
           >
-            {t('replay')}
+            <div className="text-center">
+              <div className="text-4xl mb-2">↻</div>
+              <div>{t('replay')}</div>
+            </div>
           </button>
         )}
       </div>
 
+      {/* ✅ Animated captions */}
       <AnimatePresence mode="wait">
         {captionIndex >= 0 && (
           <motion.p

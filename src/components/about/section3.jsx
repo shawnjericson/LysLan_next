@@ -70,7 +70,7 @@ export default function LocationSection() {
 
                 {/* Location Cards */}
                 <LocationCard
-                    imageSrc="/images/Legumes.jpg"
+                    imageSrc="/Images/Legumes.jpg"
                     imageAlt={t('section3.location1.imgalt')}
                     imageTitle={t('section3.location1.imgatitle')}
                     locationName={t('section3.location1.h2')}
@@ -90,7 +90,7 @@ export default function LocationSection() {
                     </blockquote>
                 </motion.div>
                 <LocationCard
-                    imageSrc="/images/Kokonic.jpg"
+                    imageSrc="/Images/Kokonic.jpg"
                     imageAlt={t('section3.location2.imgalt')}
                     imageTitle={t('section3.location2.imgatitle')}
                     locationName={t('section3.location2.h2')}

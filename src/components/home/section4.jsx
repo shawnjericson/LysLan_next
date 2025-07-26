@@ -31,7 +31,7 @@ export default function FounderStory() {
 
                     <button
                         onClick={() => setShowLetter(true)}
-                        className="relative inline-block btn-slide-custom"
+                        className="relative inline-block btn-slide-custom cursor-pointer"
                     >
                         <span className="absolute inset-0 bg-[#DE9400] scale-x-0 origin-left transition-transform duration-500 ease-in-out z-[-1] hover:scale-x-100"></span>
                         {t('CTA')}
