@@ -9,7 +9,6 @@ import Section5 from '@/components/home/section5';
 import Section6 from '@/components/home/section6';
 import Section7 from '@/components/home/section7';
 import Section8 from '@/components/home/section8';
-import Example from '@/components/home/Example';
 export default function Home() {
   const t = useTranslations('home');
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <Metadata pageKey="home" />
       <main>
         <h1 className="sr-only">{t('h1')}</h1>
-        <Example />
         <Section1 />
         <Section2 />
         <Section3 />
