@@ -11,7 +11,7 @@ export default function CacaoToChocolate() {
 
     const slides = [
         {
-            src: '/Images/Beantobar_IMG3.jfif',
+            src: '/Images/Beantobar_IMG3.jpg',
             alt: t('imgslideshow.imgalt1'),
             title: t('imgslideshow.imgtitle1'),
         },
@@ -26,7 +26,7 @@ export default function CacaoToChocolate() {
             title: t('imgslideshow.imgtitle3'),
         },
         {
-            src: '/Images/Beantobar_IMG4.jfif',
+            src: '/Images/Beantobar_IMG4.jpg',
             alt: t('imgslideshow.imgalt4'),
             title: t('imgslideshow.imgtitle4'),
         },
