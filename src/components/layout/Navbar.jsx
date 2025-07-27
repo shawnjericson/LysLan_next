@@ -90,7 +90,7 @@ export default function Navbar() {
                   {t('CTA.CTAname')}
                 </Link>
                 <div className="flex items-center gap-2 ml-4">
-                  <Search />
+                  <Search locale={locale}/>
                   <Cart />
                 </div>
               </div>
