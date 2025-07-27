@@ -7,6 +7,7 @@ import '@fontsource/playfair-display'; // mặc định: 400
 import '@fontsource/inter';
 import '@fontsource/satisfy';
 import { CartProvider } from '@/context/CartContext';
+import AdvancedLoadingIndicator from '@/components/layout/LoadingIndicator';
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
   return (
@@ -16,6 +17,7 @@ export default async function LocaleLayout({ children, params }) {
           <header className="sticky top-0 z-50">
             <Header/>
           </header>
+          <AdvancedLoadingIndicator />
           {children}
           <Footer />
         </CartProvider>
